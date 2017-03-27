@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="uOrder.KoreanFriedCauliflower"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:uOrder"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="950">
+    <Grid>
+        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto" Margin="36,36,36,10" Grid.RowSpan="2">
+            <StackPanel>
+                <Button Content="Go Back" Width="875"/>
+                <Label Content="Korean Fried Cauliflower" FontSize="14" FontWeight="Bold"/>
+                <Label Content="spicy gochujang pepper sauce, jalapeno lime dip - 9 ¾" FontSize="10" Margin="0, -10, 0 , 0"/>
+                <Label Content="A note for the kitchen:"/>
+                <TextBox Width="875" Height="87" FontFamily="Courier New">
+                    Enter preferences or allergies here
+                </TextBox>
+                <Button Content="Add to Order" Width="875"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

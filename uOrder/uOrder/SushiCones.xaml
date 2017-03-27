@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="uOrder.SushiCones"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:uOrder"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="950">
+    <Grid>
+        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto" Margin="36,36,36,10" Grid.RowSpan="2">
+            <StackPanel>
+                <Button Content="Go Back" Width="875"/>
+                <Label Content="Sushi Cones" FontSize="14" FontWeight="Bold"/>
+                <Label Content="tempura prawns, fresh avocado, nori + ponzu - 14 ¼" FontSize="10" Margin="0, -10, 0 , 0"/>
+                <Label Content="A note for the kitchen:"/>
+                <TextBox Width="875" Height="87" FontFamily="Courier New">
+                    Enter preferences or allergies here
+                </TextBox>
+                <Button Content="Add to Order" Width="875"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

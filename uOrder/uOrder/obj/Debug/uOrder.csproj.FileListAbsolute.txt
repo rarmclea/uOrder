@@ -1,0 +1,233 @@
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.exe.config
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.exe
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.pdb
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\App.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\MainWindow.baml
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.g.resources
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.exe
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.pdb
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\HelpPage.baml
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\MenuPage.baml
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+\\samba.cs.ucalgary.ca\madel.castro\481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe.config
+\\samba.cs.ucalgary.ca\madel.castro\481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.exe
+\\samba.cs.ucalgary.ca\madel.castro\481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\Madel\Documents\School School\CPSC 481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Bruschetta.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Calamari.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\ChickenWings.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DryRibs.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Med-Bread.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MosaicDip.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Potstickers.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\SushiCones.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\SweetChiliChicken.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\TunaPokeInAJar.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\LettuceWraps.g.cs
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Bruschetta.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Calamari.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\ChickenWings.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\DryRibs.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\LettuceWraps.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Med-Bread.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\MosaicDip.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\Potstickers.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\SushiCones.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\SweetChiliChicken.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\TunaPokeInAJar.baml
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\rachel\Desktop\cpsc481-master\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Bruschetta.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Calamari.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ChickenWings.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DryRibs.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\LettuceWraps.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Med-Bread.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MosaicDip.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Potstickers.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\SushiCones.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\SweetChiliChicken.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\TunaPokeInAJar.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Bruschetta.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Calamari.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ChickenWings.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DryRibs.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\LettuceWraps.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Med-Bread.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MosaicDip.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\Potstickers.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\SushiCones.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\SweetChiliChicken.baml
+\\samba.cs.ucalgary.ca\rarmclea\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\TunaPokeInAJar.baml
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+\\samba.cs.ucalgary.ca\rarmclea\documents\visual studio 2015\Projects\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Bruschetta.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Calamari.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\ChickenWings.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DryRibs.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\LettuceWraps.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Med-Bread.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MosaicDip.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Potstickers.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\SushiCones.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\SweetChiliChicken.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\TunaPokeInAJar.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Bruschetta.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Calamari.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\ChickenWings.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DoubleCheeseNachosForOneOrTwo.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DoubleCheeseNachosSharePlatter.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\DryRibs.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\IndoChickenFlatbread.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\KoreanFriedCauliflower.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\LettuceWraps.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Med-Bread.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\MosaicDip.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\Potstickers.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\SushiCones.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\SweetChiliChicken.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\TunaPokeInAJar.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\YourOrder.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\cpsc481\uOrder\uOrder\obj\Debug\YourOrder.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\YourOrder.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\YourOrder.baml
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\OrderItem.g.cs
+C:\Users\rachel\Desktop\cpsc481\cpsc481\uOrder\uOrder\obj\Debug\OrderItem.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\OrderItem.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\YourOrder.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\OrderItem.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\YourOrder.baml
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptItem.g.cs
+C:\Users\rachel\Documents\Visual Studio 2015\Projects\uOrder\uOrder\obj\Debug\ReceiptItem.baml

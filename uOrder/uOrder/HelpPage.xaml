@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="uOrder.HelpPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:uOrder"
+             mc:Ignorable="d" Height="803" Width="1921">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="286"  VerticalAlignment="Top" Width="1901" Margin="10,0,0,0">
+            <TextBlock x:Name="textBlockother" Margin="10,5,0,5" TextWrapping="Wrap" Height="91" FontSize="65" HorizontalAlignment="Left" Width="235" TextDecorations="{x:Null}" Text="HELP" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlockother1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,-5,0,-5" Width="1837" Height="91" FontSize="30" FontWeight="Bold" FontFamily="Segoe UI Historic">
+                Our menu is inspired by the people we meet, the cultures we encounter and the food we love to cook. At Moxie’s we buy fresh, <LineBreak/>quality ingredients and prepare them with love!
+            </TextBlock>
+            <TextBlock x:Name="textBlockother2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,10,0,10" Height="91" Width="1837" FontSize="26" FontWeight="Regular" FontStyle="Italic">
+                    Please refer to this page for support in navigating the menu. If you require further service, or have any additional inquiries or requests, click on the ‘Call Waiter’ button and someone will be happy assist you.
+
+            </TextBlock>
+        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" Margin="10,291,10,51" FontSize="72">
+            <StackPanel Height="961" Width="1868">
+
+                <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Exploring our selection" VerticalAlignment="Top" Margin="-5,10,0,-20" Height="97" Width="1852" Foreground="#FFA62525" FontFamily="Segoe Script" FontSize="42"/>
+
+                <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,-10,0,-10" Height="223" Width="1842" FontSize="26"><Run Text="If the device goes idle at any point, a single tap anywhere on the screen will bring it back to life. Browse through our selection with ease by using the scrollbar located to the side of the menu, or by clicking and moving up and down within the menu."/><LineBreak/><LineBreak/><Run Text="When there's an item that strikes your fancy, click on it! A detailed description of the dish will appear to provide you with more information. All customizations available for this item will appear in a scrolldown menu or checkboxes for you to choose from. Please let us know if you have any allergies or if you'd like your dish to be served in a specific way in the Note for the Kitchen box - click in the box and type it out."/></TextBlock>
+
+                <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,30,0,-20" Height="97" Width="1852" Foreground="#FFA62525" FontFamily="Segoe Script" FontSize="42"><Run Text="Placin"/><Run Text="g an order"/></TextBlock>
+                <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,-10,0,-10" Height="298" Width="1842" FontSize="26">
+                    When you have decided on a dish and specified just how you like it, click on ‘Add to Order’ and the item will appear under the active order to the side of the screen. Any items that you choose to add to your order will appear here, where you can remove them if you change your mind. Once you’re done exploring our menu, select ‘Place Order Now’ to send your order to the kitchen for preparation! <LineBreak/><LineBreak/>
+If everyone at the table is ordering together, pass this interactive menu to each guest – ‘Order 1’ will hold each guest’s selections. Click ‘Place Order Now’ when everyone has made their selection. If there are separate orders amongst the guests, click on ‘+’ beside the listed orders to begin a new order which will generate a separate receipt.
+                </TextBlock>
+                <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,-5,0,-20" Height="97" Width="1852" Foreground="#FFA62525" FontFamily="Segoe Script" FontSize="42"><Run Text="Viewing your order"/></TextBlock>
+                <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,-10,0,-10" Height="70" Width="1842" FontSize="26">
+                  If you’d like to view what you’ve ordered, select your order from the side of the screen to make it active and click ‘View Receipt’.
+                </TextBlock>
+                <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,15,0,-20" Height="97" Width="1852" Foreground="#FFA62525" FontFamily="Segoe Script" FontSize="42"><Run Text="Payment"/></TextBlock>
+                <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-5,-10,0,-10" Height="70" Width="1842" FontSize="26">
+                  When you’d like to pay, click ‘Pay Now’ on the ‘View Receipt’ page for your order. A waiter will assist you shortly. A party with split orders that would like to pay separately can choose their own methods of payment as required.
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
