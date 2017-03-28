@@ -30,8 +30,8 @@ namespace uOrder
 
         private void pay_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Are you ready to pay for your order?", "Pay Now", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
-                AutoClosingMessageBox.Show("The waiter is on the way with the cheque", "Pay Now",2000);
+            if (new ConfirmDialog("How would you like to pay for your order?", "Cash", "Credit").ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                new MessageDialog("Your server is on the way with the cheque").ShowDialog();
         }
     }
 }

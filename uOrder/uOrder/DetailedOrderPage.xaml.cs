@@ -54,7 +54,6 @@ namespace uOrder
             _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
             _menu.gst_label.Content = "GST: $" + _menu.gst;
             _menu.tot_label.Content = "Total: $" + _menu.total;
-            AutoClosingMessageBox.Show("Added item to order", "Item Added", 500);
 
         }
 

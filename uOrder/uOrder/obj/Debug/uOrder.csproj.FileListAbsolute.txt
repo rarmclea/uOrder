@@ -259,3 +259,33 @@ C:\Users\Madel\Documents\School School\CPSC 481\final\uOrder\uOrder\uOrder\obj\D
 C:\Users\Madel\Documents\School School\CPSC 481\final\uOrder\uOrder\uOrder\obj\Debug\uOrder.g.resources
 C:\Users\Madel\Documents\School School\CPSC 481\final\uOrder\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
 C:\Users\Madel\Documents\School School\CPSC 481\final\uOrder\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\OrderItem.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\ReceiptItem.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\YourOrder.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\OrderItem.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\ReceiptItem.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\YourOrder.baml
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.MessageDialog.resources
+C:\Users\rachel\Desktop\my_branch\uOrder\uOrder\uOrder\obj\Debug\uOrder.ConfirmDialog.resources

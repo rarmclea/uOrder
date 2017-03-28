@@ -38,7 +38,7 @@ namespace uOrder
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            AutoClosingMessageBox.Show("refill on way", "refull", 1000);
+            new MessageDialog("Your refill is on its way").ShowDialog();
 
         }
     }

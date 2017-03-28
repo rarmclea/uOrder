@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ipad_keyboard_caps_lock_.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("uorderlogo.png")]
 
 

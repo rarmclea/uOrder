@@ -34,7 +34,8 @@ namespace uOrder
 
         private void order_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Are you ready to place your order?", "Place Order", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            ConfirmDialog cd = new ConfirmDialog("Are you ready to place your order?", "Place Order");
+            if (cd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 OrderItem[] array = new OrderItem[order_stack.Children.Count];
                 order_stack.Children.CopyTo(array, 0);
@@ -47,13 +48,13 @@ namespace uOrder
                 _receipt.sub_label.Content = "Subtotal: $" + _receipt.subtotal.ToString("F");
                 _receipt.gst_label.Content = "GST: $" + _receipt.gst.ToString("F");
                 _receipt.tot_label.Content = "Total: $" + _receipt.total.ToString("F");
-                gst += 0.0;
-                subtotal += 0.0;
-                total += 0.0;
+                gst = 0.0;
+                subtotal = 0.0;
+                total = 0.0;
                 sub_label.Content = "Subtotal: $" + subtotal.ToString("F");
                 gst_label.Content = "GST: $" + gst.ToString("F");
                 tot_label.Content = "Total: $" + total.ToString("F");
-                AutoClosingMessageBox.Show("Your order has been sent to the kitchen. You can view ordered items under 'View Receipt' or order more items under 'Menu'", "Place Order", 2500);
+                new MessageDialog("Your order has been sent to the kitchen. You can view ordered items under 'View Receipt' or order more items under 'Menu'").ShowDialog();
             }
         }
 

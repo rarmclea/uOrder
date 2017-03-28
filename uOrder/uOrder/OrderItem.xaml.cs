@@ -44,13 +44,16 @@ namespace uOrder
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _menu.order_stack.Children.Remove(this);
-            _menu.subtotal -= price;
-            _menu.gst = _menu.subtotal * 0.05;
-            _menu.total = _menu.gst + _menu.subtotal;
-            _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
-            _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
-            _menu.tot_label.Content = "Total: $" + _menu.total.ToString("F");
+            if (new ConfirmDialog("Are you sure you want to remove this item?", "Remove item").ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                _menu.order_stack.Children.Remove(this);
+                _menu.subtotal -= price;
+                _menu.gst = _menu.subtotal * 0.05;
+                _menu.total = _menu.gst + _menu.subtotal;
+                _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
+                _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
+                _menu.tot_label.Content = "Total: $" + _menu.total.ToString("F");
+            }
 
         }
     }
