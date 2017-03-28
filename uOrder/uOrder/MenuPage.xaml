@@ -147,17 +147,17 @@
                 <TabItem Header="PIZZAS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ri_Click">
                                 <TextBlock Width="735">
-                                    RUSTIC ITALIAN <LineBreak/> 
-                                    prosciutto + pancetta, caramelized onions, pulled short rib - 16 ¾
+                                RUSTIC ITALIAN <LineBreak/> 
+                                prosciutto + pancetta, caramelized onions, pulled short rib - 16 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="m_Click">
                                 <TextBlock Width="735">
-                                    MARGHERITA<LineBreak/> 
-                                    fresh basil, bocconcini, rustic tomato sauce, olive oil - 13 ¾
+                                MARGHERITA<LineBreak/> 
+                                fresh basil, bocconcini, rustic tomato sauce, olive oil - 13 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
@@ -167,56 +167,56 @@
                 <TabItem Header="SOUPS + SALADS" FontFamily="Montreal" FontSize="16" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="bcs_Click">
                                 <TextBlock Width="735">
                                     BROCCOLI CHEESE SOUP <LineBreak/> 
                                     7 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="fs_Click">
                                 <TextBlock Width="735">
                                     FEATURE SOUP<LineBreak/> 
                                     7 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sms_Click">
                                 <TextBlock Width="735">
                                     STARTER MARKET SALAD <LineBreak/> 
-                                    artisan greens, fresh veggies, edamame, taosted pumpkin seeds, red wine vinaigrette - 7 ¾
+                                    artisan greens, fresh veggies, edamame, toasted pumpkin seeds, red wine vinaigrette - 7 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="scs_Click">
                                 <TextBlock Width="735">
                                     STARTER CAESAR SALAD<LineBreak/> 
                                     7 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="cs_Click">
                                 <TextBlock Width="735">
                                     CAESAR SALAD <LineBreak/> 
                                     garlic ciabatta baguette - 9 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="kqslv_Click">
                                 <TextBlock Width="735">
                                     KALE + QUINOA SALAD + LEMON VINAIGRETTE<LineBreak/> 
                                     toasted pumpkin seeds, dried currants, grana padano - 13 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="acs_Click">
                                 <TextBlock Width="735">
                                     ASIAN CHOPPED SALAD<LineBreak/> 
                                     marinated chicken, crisp veggies, sesame dressing, frash cilantro + toasted sesame seeds - 13 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ss_Click">
                                 <TextBlock Width="735">
                                     STEAK SALAD<LineBreak/> 
                                     fresh greens, quebec goat cheese, grape tomatoes, spicy vinaigrette with a hint of clamato,<LineBreak/> 
@@ -224,7 +224,7 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="sacs_Click">
                                 <TextBlock Width="735">
                                     SALMON + AVOCADO COBB SALAD<LineBreak/> 
                                     fresh lois lake steelhead, crisp iceberg lettuce, bacon, cage-free boiled egg, feta, peppercorn ranch +<LineBreak/> 
@@ -232,7 +232,7 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="sgts_Click">
                                 <TextBlock Width="735">
                                     SEARED GINGER TUNA SALAD<LineBreak/> 
                                     rare albacore tuna, edamame beans, avocado, daikon, cashews, cucumber ponzu emulsion - 19 ¾
@@ -245,42 +245,43 @@
                 <TabItem Header="STEAKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="s_Click">
                                 <TextBlock Width="735">
                                     SIRLOIN <LineBreak/> 
-                                    7 oz certified angus beef (cab®) - 25 ¾
+                                    7 oz certified angus beef (cab®) - 25 ¾ <LineBreak/>
+                                    add madagascar peppercorn brandy sauce 3½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="hgs_Click">
                                 <TextBlock Width="735">
                                     HONEY GARLIC SIRLOIN<LineBreak/> 
                                     9 oz, our unforgettable marinated sirloin - 29 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="ms_Click">
                                 <TextBlock Width="735">
                                     MUSHROOM SIRLOIN<LineBreak/> 
                                     7 oz cab® sirloin, creamy madeira sauce + pan roasted cremini mushrooms - 29
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0"  Click="ny_Click">
                                 <TextBlock Width="735">
                                     NEW YORK<LineBreak/> 
                                     10 oz - 34
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="pny_Click">
                                 <TextBlock Width="735">
                                     PEPPERCORN NEW YORK<LineBreak/> 
                                     10 oz with madagascar peppercorn brandy sauce - 36 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sp_Click">
                                 <TextBlock Width="735">
                                     SIRLOIN + PRAWNS<LineBreak/> 
                                     7 oz cab® sirloin + grilled garlic butter prawns - 33
@@ -293,21 +294,21 @@
                 <TabItem Header="MAINS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="mds_Click">
                                 <TextBlock Width="735">
                                     MUSTARD + DILL SALMON <LineBreak/> 
                                     fresh lois lake steelhead, green beans + mushroom salsa + baby potatoes - 26
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="lllhs_Click">
                                 <TextBlock Width="735">
                                     LOIS LAKE LAMON HERB SALMON<LineBreak/> 
                                     fresh lois lake steelhead, ancient grains, lemon herb sauce + fresh seasonal vegetables - 26
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="cmc_Click">
                                 <TextBlock Width="735">
                                     CHIPOTLE MANGO CHICKEN <LineBreak/> 
                                     sweet + smoky dry rub, lemon quinoa, seasonal vegetables, fresh avocado + <LineBreak/> 
@@ -315,7 +316,7 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="orfc_Click">
                                 <TextBlock Width="735">
                                     OVEN ROASTED FREE-RUN CHICKEN <LineBreak/> 
                                     seasoned flour, herbed goat cheese, lemon herb sauce, fresh seasonal vegetables, <LineBreak/>
@@ -323,24 +324,25 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sbbrh_Click">
                                 <TextBlock Width="735">
                                     SLOW-ROASTED BABY BACK RIBS (HALF RACK) <LineBreak/> 
                                     fall off the bone tender, your choice of potato + fresh seasonal vegetables - 23 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sbbrf_Click">
                                 <TextBlock Width="735">
                                     SLOW-ROASTED BABY BACK RIBS (FULL RACK) <LineBreak/> 
                                     fall off the bone tender, your choice of potato + fresh seasonal vegetables - 29 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="cr_Click">
                                 <TextBlock Width="735">
                                     CHICKEN + RIBS <LineBreak/> 
-                                    half rack of ribs, spice rubbed chicken, choice of potato + fresh seasonal vegetables - 25 ¾
+                                    half rack of ribs, spice rubbed chicken, choice of potato + fresh seasonal vegetables - 25 ¾ <LineBreak/>
+                                    add a second chicken breast - 5
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
@@ -350,7 +352,7 @@
                 <TabItem Header="PASTA + RICE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="cmr_Click">
                                 <TextBlock Width="735">
                                     CHICKAN MADEIRA RIGATONI <LineBreak/> 
                                     pan roasted chicken, creamy mushroom + madeira wine sauce, fresh rosemary, <LineBreak/>
@@ -358,43 +360,45 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ha_Click">
                                 <TextBlock Width="735">
                                     HERB ALFREDO <LineBreak/> 
                                     grana padano, penne, asiago cream, chives - 13 ¾ <LineBreak/>
-                                    add chicken - 5
+                                    add chicken 5
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="pl_Click">
                                 <TextBlock Width="735">
                                     PRAWN LINGUINE<LineBreak/> 
                                     + tempura prawns, sriracha aioli + sweet chili sauce - 13 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ce_Click">
                                 <TextBlock Width="735">
                                     CHICKEN ENCHILADAS <LineBreak/> 
                                      9 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="gtrb_Click">
                                 <TextBlock Width="735">
-                                    CHICKEN TERIYAKI RICE BOWL<LineBreak/> 
-                                    12 ¾
+                                    GINGER TERIYAKI RICE BOWL<LineBreak/> 
+                                    fresh asian veggies, chipotle yogurt - 12 ¾ <LineBreak/>
+                                    add chicken 5<LineBreak/>
+                                    add steak 6
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="rtcb_Click">
                                 <TextBlock Width="735">
                                     RED THAI CURRY BOWL<LineBreak/> 
                                     fresh baked flatbread, three dips - 9 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="bv_Click">
                                 <TextBlock Width="735">
                                     BEEF VINDALOO <LineBreak/> 
                                     11 ¾
@@ -406,35 +410,38 @@
                 <TabItem Header="BURGERS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="LightGray" BorderThickness="0" Click="not_available_Click">
-                                <TextBlock Width="735" Margin="0,20" Foreground="DarkGray">
+                            <Button Background="White" BorderThickness="0" Click="bcb_Click">
+                                <TextBlock Width="735">
                                     BLACKENED CHICKEN BURGER <LineBreak/> 
                                     crisp pancetta bacon, american cheddar, roasted garlic mayo - 16
                                 </TextBlock>
                             </Button>
-                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,0,0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
                                 <TextBlock Width="735">
                                     PORTOBELLO VEGGIE BURGER <LineBreak/> 
                                     marinated full mushroom cap, aged white cheddar, + fresh herbs - 14 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="tb_Click">
                                 <TextBlock Width="735">
                                     THE BURGER<LineBreak/> 
-                                    hand-formed chuck + brisket patty, red relish, pickled mustard seed mayo - 14 ¾
+                                    hand-formed chuck + brisket patty, red relish, pickled mustard seed mayo - 14 ¾ <LineBreak/>
+                                    add bacon 1½ <LineBreak/>
+                                    add aged white cheddar 1½ <LineBreak/>
+                                    add sautéed mushrooms
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="lbb_Click">
                                 <TextBlock Width="735">
                                     LETTUCE "BUN" BURGER <LineBreak/> 
                                     our hand-formed burger wrapped in fresh iceburg lettuce - 15 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="lb_Click">
                                 <TextBlock Width="735">
                                     LOADED BURGER<LineBreak/> 
                                     aged white cheddar, mozzarella, sautéed mushrooms, bacon + bbq sauce - 17 ¾
@@ -447,14 +454,14 @@
                 <TabItem Header="HANDHELDS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="st_Click">
                                 <TextBlock Width="735">
                                     STREET TACOS <LineBreak/> 
                                     two chicken tacos, served food truck style + side fresh market salad - 13 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ft_Click">
                                 <TextBlock Width="735">
                                     FISH TACOS <LineBreak/> 
                                     chipotle lime haddock, soft corn taco shells, valentina hot sauce +<LineBreak/>
@@ -462,37 +469,37 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="gcw_Click">
                                 <TextBlock Width="735">
                                     GREEK CHICKEN WRAP<LineBreak/> 
                                     marinated chicken, tomatoes, kalamata olives, capers, tzatziki, crumbled feta cheese - 15 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sfcw_Click">
                                 <TextBlock Width="735">
                                     SOUTHERN FRIED CHICKEN WRAP <LineBreak/> 
                                     cabbage-slaw, cheddar cheese, quick pickle - 15 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="bd_Click">
                                 <TextBlock Width="735">
                                     BEEF DIP<LineBreak/> 
-                                   house-roasted beef, pretzel bun, sautéed mushrooms, horseradish aioli, swiss cheese, <LineBreak/>
+                                    house-roasted beef, pretzel bun, sautéed mushrooms, horseradish aioli, swiss cheese, <LineBreak/>
                                     au jus - 17 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="dstc_Click">
                                 <TextBlock Width="735">
                                     DOUBLE STACKED TURKEY CLUB <LineBreak/> 
                                     roasted turkey, crisp bacon, fresh lettuce, tomato, mayo, cheddar,<LineBreak/>
-                                     toasted multi-grain - 14 ¾
+                                    toasted multi-grain - 14 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="st_s_Click">
                                 <TextBlock Width="735">
                                    STEAK SANDWHICH<LineBreak/> 
                                     cab® sirloin, open faced with sautéed mushrooms, caramelized + crispy onions,<LineBreak/>
@@ -500,7 +507,7 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="lc_Click">
                                 <TextBlock Width="735">
                                     LUNCH COMBO<LineBreak/> 
                                     choose any two of the following: broccoli cheese or feature soup, side caesar or <LineBreak/>
@@ -508,14 +515,14 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="sfcw_Click">
                                 <TextBlock Width="735">
                                     SOUTHERN FRIED CHICKEN WRAP <LineBreak/> 
                                     cabbage-slaw, cheddar cheese, quick pickle - 15 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="ctf_Click">
                                 <TextBlock Width="735">
                                     CHICKEN TENDERS + FRIES<LineBreak/> 
                                     classic, buffalo or tangy thai - 14
@@ -525,59 +532,59 @@
                         </StackPanel>
                     </ScrollViewer>
                 </TabItem>
-                <TabItem Header="DRINKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
+                <TabItem Header="DESSERTS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="scpc_Click">
                                 <TextBlock Width="735">
                                     SALTED CARAMEL + PECAN CHEESECAKE <LineBreak/> 
                                     caramel scented cheesecake with fresh blackberries + orange segments - 8 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="mscpc_Click">
                                 <TextBlock Width="735">
                                     MINI SALTED CARAMEL + PECAN CHEESECAKE <LineBreak/> 
                                     4 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="dcc_Click">
                                 <TextBlock Width="735">
                                     DARK CHOCOLATE CAKE<LineBreak/> 
                                     warm callebaut chocolate sauce, french vanilla ice cream + shaved chocolate curls - 8
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="wcb_Click">
                                 <TextBlock Width="735">
                                     WHITE CHOCOLATE BROWNIE <LineBreak/> 
                                     warm chocolate sauce, french vanilla ice cream + real whipped cream - 8 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="bob_Click">
                                 <TextBlock Width="735">
                                     BITE OF BROWNIE<LineBreak/> 
                                     4 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="stp_Click">
                                 <TextBlock Width="735">
                                     STICKY TOFFEE PUDDING <LineBreak/> 
                                     warm, with toasted almonds, buttery caramel sauce + french vanilla ice cream - 8 ¾
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="mstp_Click">
                                 <TextBlock Width="735">
                                    MINI STICKY TOFFEE PUDDING<LineBreak/> 
                                     4 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="tt_Click">
                                 <TextBlock Width="735">
                                     TASTING TRIO<LineBreak/> 
                                     mini versions of our white chocolate brownie, sticky toffee pudding + salted caramel + <LineBreak/>
@@ -588,51 +595,51 @@
                         </StackPanel>
                     </ScrollViewer>
                 </TabItem>
-                <TabItem Header="DESSERTS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
+                <TabItem Header="DRINKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760"/>
                 </TabItem>
                 <TabItem Header="KIDS MENU" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <StackPanel Width="740">
-                        <Button Background="White" BorderThickness="0">
+                        <Button Background="White" BorderThickness="0" Click="kp_Click">
                             <TextBlock Width="735">
-                                    KIDS' PENNE <LineBreak/> 
-                                    with asiago cream - 9 ¾
+                                KIDS' PENNE <LineBreak/> 
+                                with asiago cream - 9 ¾
                             </TextBlock>
                         </Button>
                         <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                        <Button Background="White" BorderThickness="0">
-                            <TextBlock Width="735">
-                                    JR CHEESEBURGER <LineBreak/> 
-                                    with cheddar cheese + ketchup, served with your choice of fries, salad or veggies + <LineBreak/> 
-                                    dip - 9 ¾
-                            </TextBlock>
-                        </Button>
-                        <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                        <Button Background="White" BorderThickness="0">
+                        <Button Background="White" BorderThickness="0" Click="cb_Click">
                             <TextBlock Width="735">
                                     CHICKEN BITES<LineBreak/> 
                                     served with your choice of fries, salad or veggies + dip - 9 ¾
                             </TextBlock>
                         </Button>
                         <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                        <Button Background="White" BorderThickness="0">
+                        <Button Background="White" BorderThickness="0" Click="jc_Click">
                             <TextBlock Width="735">
-                                    GRILLED CHEESE SANDWICH <LineBreak/> 
-                                    white or multi-grain bread, served with your choice of fries, salad or veggies + dip - 9 ¾
+                                JR CHEESEBURGER <LineBreak/> 
+                                with cheddar cheese + ketchup, served with your choice of fries, salad or veggies + <LineBreak/> 
+                                dip - 9 ¾
                             </TextBlock>
                         </Button>
                         <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                        <Button Background="White" BorderThickness="0">
+                        <Button Background="White" BorderThickness="0" Click="gcs_Click">
                             <TextBlock Width="735">
-                                    CHEESE PIZZA<LineBreak/> 
-                                    served with veggies + dip - 9 ¾
+                                GRILLED CHEESE SANDWICH <LineBreak/> 
+                                white or multi-grain bread, served with your choice of fries, salad or veggies + dip - 9 ¾
                             </TextBlock>
                         </Button>
                         <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                        <Button Background="White" BorderThickness="0">
+                        <Button Background="White" BorderThickness="0" Click="cp_Click">
                             <TextBlock Width="735">
-                                    KIDS' GRILLED CHICKEN DINNER<LineBreak/> 
-                                    with jasmine rice + veggies + dip - 9 ¾
+                                CHEESE PIZZA<LineBreak/> 
+                                served with veggies + dip - 9 ¾
+                            </TextBlock>
+                        </Button>
+                        <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                        <Button Background="White" BorderThickness="0"  Click="kgcd_Click">
+                            <TextBlock Width="735">
+                                KIDS' GRILLED CHICKEN DINNER<LineBreak/> 
+                                with jasmine rice + veggies + dip - 9 ¾
                             </TextBlock>
                         </Button>
                         <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>

@@ -28,7 +28,7 @@
         </StackPanel>
 
         <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" >
-            <Image x:Name="Image6_png" Source="Image6.png" Stretch="Uniform" />
+            <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" />
         </Button>
 
     </Grid>

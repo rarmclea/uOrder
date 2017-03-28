@@ -147,7 +147,7 @@ namespace uOrder {
         
         #line 31 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Image Image6_png;
+        internal System.Windows.Controls.Image uOrderLogo_png;
         
         #line default
         #line hidden
@@ -252,7 +252,7 @@ namespace uOrder {
             this.start = ((System.Windows.Controls.Button)(target));
             return;
             case 14:
-            this.Image6_png = ((System.Windows.Controls.Image)(target));
+            this.uOrderLogo_png = ((System.Windows.Controls.Image)(target));
             return;
             }
             this._contentLoaded = true;
