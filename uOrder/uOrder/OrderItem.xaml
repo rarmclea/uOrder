@@ -7,10 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="90" d:DesignWidth="875">
     <Grid>
-        <Label Name="item_title" FontSize="22" Margin="10,0,676.2,53.6"/>
-        <TextBlock Name="item_details" FontSize="18" FontStyle="Italic" HorizontalAlignment="Right" Margin="0,36,589.2,9.6" Width="276"/>
-        <Label Name="item_price" FontSize="18" Margin="188,41,546.2,9.6"/>
-        <Button Background="DarkRed" Foreground="White" Content="Remove" Click="Button_Click" Margin="199,0,570.2,50.6" />
+        <Label Name="item_title" FontSize="22" Margin="10,0,232,54"/>
+        <TextBlock Name="item_details" FontSize="18" FontStyle="Italic" HorizontalAlignment="Right" Margin="0,36,121,10" Width="744" Foreground="DarkRed"/>
+        <Label Name="item_price" FontSize="18" Margin="648,-3,121,54"/>
+        <Button Background="DarkRed" Foreground="White" Content="Remove" Click="Button_Click" Margin="759,0,10,51" />
 
     </Grid>
 </UserControl>

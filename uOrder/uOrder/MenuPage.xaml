@@ -13,20 +13,20 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1">
-            <Label FontSize="40" Content="YOUR ORDER" FontWeight="Bold" Margin="8,0,728,0" />
-            <ScrollViewer Height="560"  Width="881" VerticalScrollBarVisibility="Hidden" Background="#FFF6F2F1">
+            <Label FontSize="40" Content="YOUR ORDER" FontWeight="Bold" Margin="10,0,728,0" />
+            <ScrollViewer Height="560"  Width="926" VerticalScrollBarVisibility="Hidden" Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
                 <StackPanel Margin="10,0" Name="order_stack">
 
                 </StackPanel>
             </ScrollViewer>
-            <Button x:Name="order" Content="Place Order" Height="40" Margin="15,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="order_Click" Background="DarkRed" HorizontalAlignment="Left" Width="537"/>
-            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="14" Margin="15,15,15,0" HorizontalContentAlignment="Right"/>
-            <Label Name="gst_label" Content="GST: $0.00" FontSize="14" Margin="15,0,15,0" HorizontalContentAlignment="Right"/>
-            <Label Name="tot_label" Content="Total: $0.00" FontSize="20" Margin="15,0,15,0" HorizontalContentAlignment="Right"/>
+            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="14" Margin="15,15,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="925"/>
+            <Label Name="gst_label" Content="GST: $0.00" FontSize="14" Margin="15,0,59,0" HorizontalContentAlignment="Right"/>
+            <Label Name="tot_label" Content="Total: $0.00" FontSize="20" Margin="15,0,59,0" HorizontalContentAlignment="Right"/>
+            <Button x:Name="order" Content="Place Order" Height="40" Margin="728,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="order_Click" Background="DarkRed" HorizontalAlignment="Left" Width="212"/>
         </StackPanel>
         <StackPanel Name="page_viewer" Grid.Column="0">
-            <Label FontSize="40" Content="MENU" FontWeight="Bold" Margin="8,10,0,0" />
-            <TabControl Name="menu" TabStripPlacement="Right" Margin="36,16,36,10">
+            <Label FontSize="40" Content="MENU" FontWeight="Bold" Margin="8,0,0,0" />
+            <TabControl Name="menu" TabStripPlacement="Right" Margin="0,0,36,10" HorizontalAlignment="Right" Width="904">
                 <TabItem Header="SHARE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer Height="720" Width="760" VerticalScrollBarVisibility="Hidden">
                         <StackPanel Width="740">

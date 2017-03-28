@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:uOrder"
              mc:Ignorable="d" Height="803" Width="1921">
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Height="286"  VerticalAlignment="Top" Width="1901" Margin="10,0,0,0" >
-            <TextBlock x:Name="textBlockother" Margin="10,5,0,5" TextWrapping="Wrap" Height="91" FontSize="40" HorizontalAlignment="Left" Width="235" TextDecorations="{x:Null}" Text="HELP" FontWeight="Bold"/>
+        <StackPanel HorizontalAlignment="Left" Height="286"  VerticalAlignment="Top" Margin="0" >
+            <TextBlock x:Name="textBlockother" Margin="10,5,0,5" TextWrapping="Wrap" FontSize="40" Text="HELP" FontWeight="Bold" HorizontalAlignment="Left" Width="132"/>
             <TextBlock x:Name="textBlockother1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,-5,0,-5" Width="1837" Height="91" FontSize="30" FontWeight="Bold" FontFamily="Segoe UI Historic">
                 Our menu is inspired by the people we meet, the cultures we encounter and the food we love to cook. At Moxie’s we buy fresh, <LineBreak/>quality ingredients and prepare them with love!
             </TextBlock>
@@ -16,8 +16,8 @@
 
             </TextBlock>
         </StackPanel>
-        <ScrollViewer VerticalScrollBarVisibility="Hidden" Margin="10,291,10,51" FontSize="72">
-            <StackPanel Height="961" Width="1868" Background="#FFF6F2F1">
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" Height="961" Margin="10,291,0,10" FontSize="72" Background="#FFF6F2F1" HorizontalAlignment="Left">
+            <StackPanel Margin="10" >
 
                 <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Exploring our selection" VerticalAlignment="Top" Margin="-5,10,0,-20" Height="97" Width="1852" Foreground="#FFA62525" FontFamily="Segoe Script" FontSize="42"/>
 

@@ -9,16 +9,16 @@
     <Grid>
         <StackPanel>
 
-            <Label FontSize="40" Content="RECEIPT" FontWeight="Bold" Margin="8,0,834,0" />
-            <ScrollViewer Height="560" VerticalScrollBarVisibility="Hidden" Background="White" Margin="10,0,15,0" >
+            <Label FontSize="40" Content="RECEIPT" FontWeight="Bold" Margin="0,0,834,0" />
+            <ScrollViewer Height="560" VerticalScrollBarVisibility="Hidden" Background="White" Margin="10,0,0,0" HorizontalAlignment="Left" Width="1875" >
                 <StackPanel Name="receipt_stack" Background="#FFF6F2F1">
 
                 </StackPanel>
             </ScrollViewer>
-            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="14" Margin="1721,15,15,0" HorizontalContentAlignment="Right"/>
-            <Label Name="gst_label" Content="GST: $0.00" FontSize="14" Margin="1797,0,15,0" HorizontalContentAlignment="Right"/>
-            <Label Name="tot_label" Content="Total: $0.00" FontSize="20" Margin="1721,0,15,0" HorizontalContentAlignment="Right"/>
-            <Button Name="pay" Content="Pay Now" Height="40" Margin="1721,0,15,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="pay_Click" Background="DarkRed"/>
+            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="14" Margin="1721,15,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="164"/>
+            <Label Name="gst_label" Content="GST: $0.00" FontSize="14" Margin="1797,0,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="88"/>
+            <Label Name="tot_label" Content="Total: $0.00" FontSize="20" Margin="1721,0,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="164"/>
+            <Button Name="pay" Content="Pay Now" Height="40" Margin="1721,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="pay_Click" Background="DarkRed" HorizontalAlignment="Left" Width="164"/>
         </StackPanel>
     </Grid>
 </UserControl>
