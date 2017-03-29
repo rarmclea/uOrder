@@ -10,8 +10,8 @@
         <StackPanel>
 
             <Label FontSize="40" Content="RECEIPT" FontWeight="Bold" Margin="0,0,834,0" />
-            <ScrollViewer Height="560" VerticalScrollBarVisibility="Hidden" Background="White" Margin="10,0,0,0" HorizontalAlignment="Left" Width="1875" >
-                <StackPanel Name="receipt_stack" Background="#FFF6F2F1">
+            <ScrollViewer Height="560" VerticalScrollBarVisibility="Hidden" Background="#FFF6F2F1" Margin="10,0,0,0" HorizontalAlignment="Left" Width="1875" >
+                <StackPanel Name="receipt_stack" Margin="10">
 
                 </StackPanel>
             </ScrollViewer>

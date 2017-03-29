@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:uOrder"
         mc:Ignorable="d"
-        Title="uOrder - Restaurant Ordering System" Height="1050" Width="1950" WindowStartupLocation="CenterOwner" HorizontalAlignment="Center" VerticalAlignment="Center" >
+        Title="uOrder - Restaurant Ordering System" Height="1050" Width="1950" WindowStartupLocation="CenterOwner" HorizontalAlignment="Center" VerticalAlignment="Center" WindowState="Maximized">
     <Grid Name="myGrid">
         <Grid.RowDefinitions>
             <RowDefinition Name="first" Height="100" />

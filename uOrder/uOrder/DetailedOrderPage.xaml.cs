@@ -52,8 +52,8 @@ namespace uOrder
             _menu.gst = Math.Truncate((_menu.subtotal * 0.05)*100) / 100;
             _menu.total = _menu.subtotal + _menu.gst;
             _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
-            _menu.gst_label.Content = "GST: $" + _menu.gst;
-            _menu.tot_label.Content = "Total: $" + _menu.total;
+            _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
+            _menu.tot_label.Content = "Total: $" + _menu.total.ToString("F");
 
         }
 
