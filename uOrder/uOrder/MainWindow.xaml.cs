@@ -91,6 +91,12 @@ namespace uOrder
             menu.BorderBrush = white;
             page_viewer.Children.Clear();
             page_viewer.Children.Add(_menu);
+            //the hit box is back because i had to to implement the home button, but it shouldn't be an issue on a touch screen 
+        }
+
+        private void home_Click(object sender, RoutedEventArgs e)
+        {
+            start.Visibility = Visibility.Visible;
         }
     }
 }

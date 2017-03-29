@@ -20,15 +20,19 @@
         <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="778,20,999,20"  Click="menu_Click"/>
         <Button Name="help" Grid.Row="0" Content="HELP" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1060,20,754,20" Click="help_Click"/>
         <Button Name="receipt" Grid.Row="0" Content="VIEW RECEIPT" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1317,20,362,20" Click="receipt_Click"/>
-        <Button Name="call" Grid.Row="0" Content="CALL WAITER" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1665,20,43,20" Click="call_Click"/>
+        <Button Name="call" Grid.Row="0" Margin="252,5,1663.4,61.8" Click="call_Click" BorderThickness="0">
+            <Image x:Name="Image10_png" Height="30" Source="Image10.png" Stretch="Fill" Width="30"/>
+        </Button>
+        <Button Name="home" Grid.Row="0" Margin="252,50,1663.4,16.8" BorderThickness="0" Click="home_Click">
+            <Image x:Name="Image11_png" Height="30" Source="home_icon.png" Stretch="Fill" Width="30"/>
+        </Button>
         <Image x:Name="Image5_png" Grid.Row="2" Margin="25,10,1450,27" Source="Image5.png" Stretch="Uniform"/>
         <Rectangle Grid.Row="1" Fill="#FFC7C2C2"/>
         <StackPanel Grid.Row="1" Name="page_viewer" Margin="10">
-            <Button x:Name="enter" Cursor="Hand" Content="Button" Grid.Row="1"  Width="1932" Height="979" Opacity="0" Click="start_Click"/>
         </StackPanel>
-        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" >
+        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="True" Background="#FF4F0D0D" Visibility="Visible" Click="start_Click" >
             <StackPanel>
-                <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Visibility="Visible"/>
+                <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Margin="0"/>
                 <Label Content="-- Touch Screen to Start --" Foreground="White" FontSize="24" HorizontalContentAlignment="Center"/>
             </StackPanel>
         </Button>
