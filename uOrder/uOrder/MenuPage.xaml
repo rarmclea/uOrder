@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1">
             <Label FontSize="40" Content="YOUR ORDER" FontWeight="Bold" Margin="10,0,728,0" />
-            <ScrollViewer Height="560"  Width="926" VerticalScrollBarVisibility="Hidden" Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
+            <ScrollViewer PanningMode="Both" Height="560"  Width="926" VerticalScrollBarVisibility="Hidden"  Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
                 <StackPanel Margin="10,0" Name="order_stack">
 
                 </StackPanel>
@@ -28,7 +28,7 @@
             <Label FontSize="40" Content="MENU" FontWeight="Bold" Margin="8,0,0,0" />
             <TabControl Name="menu" TabStripPlacement="Right" Margin="0,0,36,10" HorizontalAlignment="Right" Width="904">
                 <TabItem Header="SHARE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760" VerticalScrollBarVisibility="Hidden">
+                    <ScrollViewer PanningMode="Both" Height="720" Width="760" VerticalScrollBarVisibility="Hidden">
                         <StackPanel Width="740">
                             <Button Name="tpiaj" Background="White" BorderThickness="0" Click="tpiaj_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -144,8 +144,9 @@
                         </StackPanel>
                     </ScrollViewer>
                 </TabItem>
+
                 <TabItem Header="PIZZAS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="ri_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -165,7 +166,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="SOUPS + SALADS" FontFamily="Montreal" FontSize="16" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="bcs_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -243,7 +244,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="STEAKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0"  Click="s_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -292,7 +293,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="MAINS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="mds_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -350,7 +351,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="PASTA + RICE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="cmr_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -408,15 +409,31 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="BURGERS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="White" BorderThickness="0" Click="bcb_Click">
-                                <TextBlock Width="735" Margin="0,20">
-                                    BLACKENED CHICKEN BURGER <LineBreak/> 
-                                    crisp pancetta bacon, american cheddar, roasted garlic mayo - 16
-                                </TextBlock>
+                            <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" Click="sc_Click">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Content" Value="BLACKENED CHICKEN BURGER &#x0a; crisp pancetta bacon, american cheddar, roasted garlic mayo - 16"/>
+                                        <Setter Property="HorizontalContentAlignment" Value="Left" />
+                                        <Setter Property="VerticalContentAlignment" Value="Center" />
+                                        <Setter Property="Foreground" Value="DarkGray" />
+
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Content" Value="We're sorry, this item is currently unavailable. "/>
+                                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                                <Setter Property="VerticalContentAlignment" Value="Center" />
+                                                <Setter Property="Foreground" Value="Black" />
+
+
+                                            </Trigger>
+                                        </Style.Triggers>
+
+                                    </Style>
+                                </Button.Style>
                             </Button>
-                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,40"/>
                             <Button Background="White" BorderThickness="0" Click="pvb_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     PORTOBELLO VEGGIE BURGER <LineBreak/> 
@@ -452,7 +469,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="HANDHELDS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="st_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -533,7 +550,7 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="DESSERTS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
                             <Button Background="White" BorderThickness="0" Click="scpc_Click">
                                 <TextBlock Width="735" Margin="0,20">
@@ -596,7 +613,43 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="DRINKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer Height="720" Width="760"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
+                        <StackPanel Width="740">
+                            <Button Background="White" BorderThickness="0" Click="scpc_Click">
+                                <TextBlock Width="735" Margin="0,20" Text="BEER&#xD;&#xA;big life amber &amp; euro {16 oz} - 5 ½"/>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Button Background="White" BorderThickness="0" Click="mscpc_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    BELLINI <LineBreak/> 
+                                    made with real peach, sparkling wine, and rum {1 oz} - 5 ½
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Button Background="White" BorderThickness="0" Click="dcc_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    Double Absolut Flavoured Vodka<LineBreak/> 
+                                    Mix and match your favourite Absolut flavours to create a 2oz cocktail {2 oz} - 6
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Button Background="White" BorderThickness="0" Click="wcb_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    THE G.T. - MOXIE'S TWIST ON A CLASSIC GIN AND TONIC <LineBreak/> 
+                                    This amped up gin &amp; tonic includes muddled lime leaves with fresh lime juice in <LineBreak/> frozen citrus {2 oz} - 7 ½
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            <Button Background="White" BorderThickness="0" Click="bob_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    FROZEN VODKA SODA<LineBreak/> 
+                                    7 ½
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+                            
+                        </StackPanel>
+                    </ScrollViewer>
                 </TabItem>
                 <TabItem Header="KIDS MENU" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <StackPanel Width="740">
@@ -647,6 +700,18 @@
                 </TabItem>
             </TabControl>
         </StackPanel>
+        <Grid x:Name="downArrowCover" Grid.Column="0" Height="800" VerticalAlignment="Bottom" IsHitTestVisible="False">
+            <Rectangle Margin="10,599,180,15">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="Transparent" Offset="0"/>
+                        <!--<GradientStop Color="Transparent" Offset="0.667"/>-->
+                        <GradientStop Color="#FFFFFFFF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Image Source="3907.png"  VerticalAlignment="Bottom" Opacity="0.3" Height="69" RenderOptions.BitmapScalingMode="Fant" Margin="265,0,454,15"/>
+        </Grid>
         <Rectangle Name="kb_background" Fill="#FFDADCE1" Grid.ColumnSpan="2" Margin="0,454,0.4,0.2" Visibility="Collapsed"/>
         <Image x:Name="kb" Height="350" Source="Image9.png" Stretch="Uniform" Margin="10,454.2,-9.6,45.4" Grid.ColumnSpan="2" Visibility="Collapsed"/>
     </Grid>

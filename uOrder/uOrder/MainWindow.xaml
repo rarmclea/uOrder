@@ -15,26 +15,43 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1950" />
         </Grid.ColumnDefinitions>
-        <Rectangle Grid.Row="0"  Fill="#FF4F0D0D"/>
-        <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Source="uOrderLogo.png" Stretch="Uniform"/>
-        <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="778,20,999,20"  Click="menu_Click"/>
-        <Button Name="help" Grid.Row="0" Content="HELP" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1060,20,754,20" Click="help_Click"/>
+        <Rectangle Grid.Row="0"  Fill="#FF4F0D0D" Margin="0,0,0,830" Grid.RowSpan="2"/>
+        <StackPanel>
+        <Button x:Name="button" Content="Button" Margin="7,6,1688,0" Opacity="0" Grid.Row="0" VerticalAlignment="Top" Cursor="Arrow" Click="home_Click" IsHitTestVisible="True" Height="84" />
+        </StackPanel>
+        <StackPanel>
+        <Button Name="button1" Grid.Row="0"  IsHitTestVisible="False" Background="#FF4F0D0D" >
+            <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Source="uOrderLogo.png" Stretch="Uniform"/>
+        </Button>
+        </StackPanel>
+        <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="DarkGray" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="778,20,999,20"  Click="menu_Click"/>
+        <Button Name="help" Grid.Row="0" Content=" HELP" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1060,20,754,20"  Click="help_Click"/>
         <Button Name="receipt" Grid.Row="0" Content="VIEW RECEIPT" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1317,20,362,20" Click="receipt_Click"/>
-        <Button Name="call" Grid.Row="0" Margin="252,5,1663.4,61.8" Click="call_Click" BorderThickness="0">
-            <Image x:Name="Image10_png" Height="30" Source="Image10.png" Stretch="Fill" Width="30"/>
-        </Button>
-        <Button Name="home" Grid.Row="0" Margin="252,50,1663.4,16.8" BorderThickness="0" Click="home_Click">
+        <Border Name="border" BorderBrush="#FF4F0D0D" BorderThickness="4" Margin="1684,7,84,10" Grid.Row="0"/>
+        <StackPanel>
+            <TextBlock x:Name="service" FontSize="18" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" Margin="1732,60,127,60" TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="SERVICE" Height="27"/>
+            <Button x:Name="call" Margin="1732,-220,127,0" Click="call_Click" BorderThickness="0" Height="42">
+                <Image x:Name="Image10_png" RenderOptions.BitmapScalingMode="HighQuality" Width="68" Source="Image10.png" Stretch="Fill" Height="42"/>
+            </Button>
+        </StackPanel>
+        <!--Button Name="home" Grid.Row="0" Margin="252,50,1663.4,16.8" BorderThickness="0" Click="home_Click">
             <Image x:Name="Image11_png" Height="30" Source="home_icon.png" Stretch="Fill" Width="30"/>
-        </Button>
+        </-->
         <Image x:Name="Image5_png" Grid.Row="2" Margin="25,10,1450,27" Source="Image5.png" Stretch="Uniform"/>
         <Rectangle Grid.Row="1" Fill="#FFC7C2C2"/>
         <StackPanel Grid.Row="1" Name="page_viewer" Margin="10">
+            <Button x:Name="enter" Cursor="Hand" Content="Button" Grid.Row="1"  Width="1932" Height="979" Opacity="0" Click="start_Click"/>
         </StackPanel>
-        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="True" Background="#FF4F0D0D" Visibility="Visible" Click="start_Click" >
+        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" >
             <StackPanel>
-                <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Margin="0"/>
-                <Label Content="-- Touch Screen to Start --" Foreground="White" FontSize="24" HorizontalContentAlignment="Center"/>
+                <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Visibility="Visible" Width="2034" Height="778" Margin="-80,0,-20,0"/>
+                <Label Content="-- Touch Screen to Start --" Foreground="White" FontSize="24" HorizontalContentAlignment="Center" FontStyle="Italic"/>
             </StackPanel>
         </Button>
+        
+
+
+
+
     </Grid>
 </Window>

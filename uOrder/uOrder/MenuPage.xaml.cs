@@ -343,8 +343,8 @@ namespace uOrder
 
         private void bcb_Click(object sender, RoutedEventArgs e)
         {
-            menu.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Blackened Chicken Burger", "crisp pancetta bacon, american cheddar, roasted garlic mayo - 16", 16.00, false, false));
+            //menu.Visibility = Visibility.Collapsed;
+            //page_viewer.Children.Add(new DetailedOrderPage(this, "Blackened Chicken Burger", "crisp pancetta bacon, american cheddar, roasted garlic mayo - 16", 16.00, false, false));
         }
 
         private void pvb_Click(object sender, RoutedEventArgs e)

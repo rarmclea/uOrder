@@ -35,7 +35,9 @@ namespace uOrder
         private void menu_Click(object sender, RoutedEventArgs e)
         {
             menu.BorderBrush = white;
+            menu.Background = Brushes.DarkGray;
             help.BorderBrush = darkRed;
+            help.Background = darkRed;
             receipt.BorderBrush = darkRed;
             call.BorderBrush = darkRed;
             page_viewer.Children.Clear();
@@ -45,8 +47,11 @@ namespace uOrder
         private void help_Click(object sender, RoutedEventArgs e)
         {
             menu.BorderBrush = darkRed;
+            menu.Background = darkRed;
             help.BorderBrush = white;
+            help.Background = Brushes.DarkGray;
             receipt.BorderBrush = darkRed;
+            receipt.Background = darkRed;
             call.BorderBrush = darkRed;
             page_viewer.Children.Clear();
             page_viewer.Children.Add(_help);
@@ -56,8 +61,11 @@ namespace uOrder
         private void receipt_Click(object sender, RoutedEventArgs e)
         {
             menu.BorderBrush = darkRed;
+            menu.Background = darkRed;
             help.BorderBrush = darkRed;
+            help.Background = darkRed;
             receipt.BorderBrush = white;
+            receipt.Background = Brushes.DarkGray;
             call.BorderBrush = darkRed;
             page_viewer.Children.Clear();
             page_viewer.Children.Add(_receipt);
@@ -68,19 +76,26 @@ namespace uOrder
             Brush menu_brush = menu.BorderBrush;
             Brush help_brush = help.BorderBrush;
             Brush receipt_brush = receipt.BorderBrush;
+            
+            if (new ConfirmDialog("Do you want to call the waiter?", "Call Waiter").ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                //service.Background = Brushes.DarkGray;
+                border.Background = Brushes.DarkGray;
+                border.BorderBrush = white;
+
+                new MessageDialog("The waiter has been called. Please wait.").ShowDialog();
+                
+            }
             menu.BorderBrush = darkRed;
             help.BorderBrush = darkRed;
             receipt.BorderBrush = darkRed;
-            call.BorderBrush = white;
-            if (new ConfirmDialog("Do you want to call the waiter?", "Call Waiter").ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
-                new MessageDialog("The waiter has been called. Please wait.").ShowDialog();
-            }
+            //call.BorderBrush = white;
 
             menu.BorderBrush = menu_brush;
             help.BorderBrush = help_brush;
             receipt.BorderBrush = receipt_brush;
             call.BorderBrush = darkRed;
+            
 
         }
 
@@ -88,6 +103,7 @@ namespace uOrder
         {
 
             start.Visibility = Visibility.Hidden;
+            enter.Visibility = Visibility.Hidden;
             menu.BorderBrush = white;
             page_viewer.Children.Clear();
             page_viewer.Children.Add(_menu);
@@ -96,7 +112,13 @@ namespace uOrder
 
         private void home_Click(object sender, RoutedEventArgs e)
         {
-            start.Visibility = Visibility.Visible;
+            start.Visibility = Visibility.Visible; 
+            enter.Visibility = Visibility.Visible;
+        }
+
+        private void start_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
