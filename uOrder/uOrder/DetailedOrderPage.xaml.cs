@@ -24,6 +24,11 @@ namespace uOrder
         double price;
         string item;
         MenuPage _menu;
+        double addPrice;
+        double addPrice2;
+        double addPrice3;
+        String dropItem = null;
+
         public DetailedOrderPage(MenuPage menu, String itemTitle, String itemDetails, double price, bool veg, bool wise)
         {
             InitializeComponent();
@@ -38,18 +43,102 @@ namespace uOrder
                 iconoceanwise.Visibility = Visibility.Visible;
         }
 
+        public DetailedOrderPage(MenuPage menu, String itemTitle, String itemDetails, double price, bool veg, bool wise, bool check, String itemCheckField, String itemCheckField2, String itemCheckField3, double addPrice, double addPrice2, double addPrice3)
+        {
+            InitializeComponent();
+            this.details.Text = itemDetails;
+            this.title.Content = itemTitle;
+            this._menu = menu;
+            this.price = price;
+            this.item = itemTitle;
+            this.addPrice = addPrice;
+            this.addPrice2 = addPrice2;
+            this.addPrice3 = addPrice3;
+
+            if (veg)
+                iconveg.Visibility = Visibility.Visible;
+            if (wise)
+                iconoceanwise.Visibility = Visibility.Visible;
+            if (check)
+            {
+                checkbox.Visibility = Visibility.Visible;
+                checkbox.Content = itemCheckField;
+                if (!itemCheckField2.Equals(null))
+                {
+                    checkbox2.Visibility = Visibility.Visible;
+                    checkbox2.Content = itemCheckField2;
+                }
+                if (!itemCheckField3.Equals(null))
+                {
+                    checkbox3.Visibility = Visibility.Visible;
+                    checkbox3.Content = itemCheckField3;
+                }
+
+            }
+        }
+
+        public DetailedOrderPage(MenuPage menu, String itemTitle, String itemDetails, double price, bool veg, bool wise, String drop1, String drop2, String drop3, String drop4)
+        {
+            InitializeComponent();
+            this.details.Text = itemDetails;
+            this.title.Content = itemTitle;
+            this._menu = menu;
+            this.price = price;
+            this.item = itemTitle;
+            if (veg)
+                iconveg.Visibility = Visibility.Visible;
+            if (wise)
+                iconoceanwise.Visibility = Visibility.Visible;
+
+            dropDown.Visibility = Visibility.Visible;
+            firstItem.Content = drop1;
+            if (!drop2.Equals(null))
+            {
+                secondItem.Visibility = Visibility.Visible;
+                secondItem.Content = drop2;
+            }
+            if (!drop3.Equals(null))
+            {
+                thirdItem.Visibility = Visibility.Visible;
+                thirdItem.Content = drop3;
+            }
+            if (!drop4.Equals(null))
+            {
+                fourthItem.Visibility = Visibility.Visible;
+                fourthItem.Content = drop4;
+            }
+            if (firstItem.IsSelected)
+                dropItem = drop1;
+            else if (secondItem.IsSelected)
+                dropItem = drop2;
+            else if (thirdItem.IsSelected)
+                dropItem = drop3;
+            else
+                dropItem = drop4;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             TextBlock one = new TextBlock();
             one.Text = item;
             one.FontSize = 22;
             String details = "";
+            String addOns = null;
+            String addOns2 = null;
+            String addOns3 = null;
+           
             if (notes.Text != "Enter preferences or allergies here")
                 details = notes.Text;
-            OrderItem oi = new OrderItem(_menu, item, details, price);
+            if ((bool)checkbox.IsChecked)
+                addOns = (String) this.checkbox.Content;
+            if ((bool)checkbox2.IsChecked)
+                addOns2 = (String)this.checkbox2.Content;
+            if ((bool)checkbox3.IsChecked)
+                addOns3 = (String)this.checkbox3.Content;
+            OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
             _menu.order_stack.Children.Add(oi);
-            _menu.subtotal += price;
-            _menu.gst = Math.Truncate((_menu.subtotal * 0.05)*100) / 100;
+            _menu.subtotal = price + addPrice + addPrice2 + addPrice3;
+            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
             _menu.total = _menu.subtotal + _menu.gst;
             _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
             _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
@@ -68,7 +157,7 @@ namespace uOrder
             notes.Clear();
             _menu.kb.Visibility = Visibility.Visible;
             _menu.kb_background.Visibility = Visibility.Visible;
-         
+
         }
 
         private void notes_LostFocus(object sender, RoutedEventArgs e)
@@ -77,6 +166,21 @@ namespace uOrder
                 notes.Text = "Enter preferences or allergies here";
             _menu.kb.Visibility = Visibility.Collapsed;
             _menu.kb_background.Visibility = Visibility.Collapsed;
+        }
+
+        private void checkbox_Checked(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void checkbox_Checked2(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void checkbox_Checked3(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

@@ -24,15 +24,44 @@ namespace uOrder
         public String details;
         public double price;
         public bool refillable = false;
+        public String addOns = null;
+        public String addOns2 = null;
+        public String addOns3 = null;
         MenuPage _menu;
-        public OrderItem(MenuPage menu, String title, String details, double price)
+        public double addPrice;
+        public double addPrice2;
+        public double addPrice3;
+        public String dropItem = null;
+
+        public OrderItem(MenuPage menu, String title, String details, double price, String addOns, String addOns2, String addOns3, double addPrice, double addPrice2, double addPrice3, String dropItem)
         {
             InitializeComponent();
             this.title = title;
             this.details = details;
             this.price = price;
             _menu = menu;
+            this.addOns = addOns;
+            this.addOns2 = addOns2;
+            this.addOns3 = addOns3;
+            this.addPrice = addPrice;
+            this.addPrice2 = addPrice2;
+            this.addPrice3 = addPrice3;
+            this.dropItem = dropItem;
             this.item_title.Content = title;
+            if (addOns != null)
+            {
+                this.addOn_details.Visibility = Visibility.Visible;
+            }
+            if (addOns2 != null)
+            {
+                this.addOn_details2.Visibility = Visibility.Visible;
+            }
+            if (addOns3 != null)
+            {
+                this.addOn_details3.Visibility = Visibility.Visible;
+            }
+            this.addOn_details.Text = addOns + "\n" + addOns2 + "\n" + addOns3;
+            this.drop_details.Text = dropItem;
             this.item_details.Text = details;
             this.item_price.Content = price.ToString("F");
         }
@@ -47,7 +76,7 @@ namespace uOrder
             if (new ConfirmDialog("Are you sure you want to remove this item?", "Remove item").ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 _menu.order_stack.Children.Remove(this);
-                _menu.subtotal -= price;
+                _menu.subtotal = price - addPrice - addPrice2 - addPrice3;
                 _menu.gst = _menu.subtotal * 0.05;
                 _menu.total = _menu.gst + _menu.subtotal;
                 _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
