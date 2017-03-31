@@ -63,12 +63,12 @@ namespace uOrder
             {
                 checkbox.Visibility = Visibility.Visible;
                 checkbox.Content = itemCheckField;
-                if (!itemCheckField2.Equals(null))
+                if (itemCheckField2 != null)
                 {
                     checkbox2.Visibility = Visibility.Visible;
                     checkbox2.Content = itemCheckField2;
                 }
-                if (!itemCheckField3.Equals(null))
+                if (itemCheckField3 != null)
                 {
                     checkbox3.Visibility = Visibility.Visible;
                     checkbox3.Content = itemCheckField3;
