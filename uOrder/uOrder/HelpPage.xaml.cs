@@ -20,9 +20,29 @@ namespace uOrder
     /// </summary>
     public partial class HelpPage : UserControl
     {
+
         public HelpPage()
         {
             InitializeComponent();
+        }
+
+        private void ScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            var scroll = (ScrollViewer)sender;
+            if (scroll.ContentVerticalOffset == scroll.ScrollableHeight)
+            {
+
+                mainGrid.Children.Remove(downArrowCover);
+            }
+            else
+            {
+                if (!mainGrid.Children.Contains(downArrowCover))
+                {
+                    mainGrid.Children.Add(downArrowCover);
+                }
+            }
+
+
         }
 
     }

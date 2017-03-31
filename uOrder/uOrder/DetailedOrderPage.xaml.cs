@@ -24,10 +24,13 @@ namespace uOrder
         double price;
         string item;
         MenuPage _menu;
+
+
         double addPrice;
         double addPrice2;
         double addPrice3;
         String dropItem = null;
+
 
         public DetailedOrderPage(MenuPage menu, String itemTitle, String itemDetails, double price, bool veg, bool wise)
         {
@@ -119,6 +122,17 @@ namespace uOrder
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            //if (_menu.order_stack.Children.Count == 2)
+            //{
+            //   _menu.order_stack.Children.RemoveAt(_menu.order_stack.Children.Count - 2);
+            // _menu.order_stack.Children.RemoveAt(_menu.order_stack.Children.Count - 1);
+            //}
+
+
+            _menu.order_stack.Children.Remove(_menu.empty);
+            _menu.order_stack.Children.Remove(_menu.empty2);
+
             TextBlock one = new TextBlock();
             one.Text = item;
             one.FontSize = 22;
@@ -126,11 +140,23 @@ namespace uOrder
             String addOns = null;
             String addOns2 = null;
             String addOns3 = null;
-           
+
             if (notes.Text != "Enter preferences or allergies here")
+
+            {
+                details = "\" " + notes.Text + " \"";
+
+            }
+
+            OrderItem oi = new OrderItem(_menu, item, details, price);
+            _menu.order_stack.Children.Add(oi);
+
+            _menu.subtotal += price;
+            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
+
                 details = notes.Text;
             if ((bool)checkbox.IsChecked)
-                addOns = (String) this.checkbox.Content;
+                addOns = (String)this.checkbox.Content;
             if ((bool)checkbox2.IsChecked)
                 addOns2 = (String)this.checkbox2.Content;
             if ((bool)checkbox3.IsChecked)
@@ -139,6 +165,7 @@ namespace uOrder
             _menu.order_stack.Children.Add(oi);
             _menu.subtotal = price + addPrice + addPrice2 + addPrice3;
             _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
+
             _menu.total = _menu.subtotal + _menu.gst;
             _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
             _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
@@ -146,10 +173,13 @@ namespace uOrder
 
         }
 
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            _menu.menu.Visibility = Visibility.Visible;
             _menu.page_viewer.Children.Remove(this);
+            _menu.menu.Visibility = Visibility.Visible;
+            _menu.downArrowCover.Visibility = Visibility.Visible;
+
         }
 
         private void notes_GotFocus(object sender, RoutedEventArgs e)
@@ -170,17 +200,17 @@ namespace uOrder
 
         private void checkbox_Checked(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
         private void checkbox_Checked2(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
         private void checkbox_Checked3(object sender, RoutedEventArgs e)
         {
-            
+
         }
     }
 }
