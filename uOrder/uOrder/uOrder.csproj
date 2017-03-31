@@ -84,7 +84,6 @@
     <Compile Include="ReceiptPage.xaml.cs">
       <DependentUpon>ReceiptPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TouchEnabledTextBox.cs" />
     <Compile Include="YourOrder.xaml.cs">
       <DependentUpon>YourOrder.xaml</DependentUpon>
     </Compile>
@@ -210,6 +209,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="3907.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="back_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="question_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

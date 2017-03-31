@@ -438,3 +438,4 @@ C:\Users\Madel\Desktop\uOrder\uOrder\uOrder\obj\Debug\uOrder.ConfirmDialog.resou
 C:\Users\Madel\Desktop\uOrder\uOrder\uOrder\obj\Debug\uOrder.MessageDialog.resources
 C:\Users\Madel\Desktop\uOrder\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
 C:\Users\Madel\Desktop\uOrder\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+U:\Desktop\CPSC481\Github\uOrder\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache

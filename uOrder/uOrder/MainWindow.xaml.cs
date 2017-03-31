@@ -25,11 +25,27 @@ namespace uOrder
         HelpPage _help = new HelpPage();
         SolidColorBrush darkRed = new SolidColorBrush(Color.FromRgb(79, 13, 13));
         SolidColorBrush white = new SolidColorBrush(Color.FromRgb(238, 230, 228));
+        protected TouchPoint TouchStart;
+        bool AlreadySwiped;
+
 
         public MainWindow()
         {
+
             InitializeComponent();
+
+            /**
+             ImageBrush myBrush = new ImageBrush();
+            myBrush.ImageSource =
+                new BitmapImage(new Uri("https://media-cdn.tripadvisor.com/media/photo-s/01/c4/40/ca/moxie-s-classic-grill.jpg", UriKind.Absolute));
+            myBrush.Opacity = 2;
+            page_viewer.Background = myBrush;
+            */
+
             _menu = new MenuPage(_receipt);
+            page_viewer.Children.Add(_menu);
+
+
         }
 
         private void menu_Click(object sender, RoutedEventArgs e)
@@ -39,6 +55,7 @@ namespace uOrder
             help.BorderBrush = darkRed;
             help.Background = darkRed;
             receipt.BorderBrush = darkRed;
+            receipt.Background = darkRed;
             call.BorderBrush = darkRed;
             page_viewer.Children.Clear();
             page_viewer.Children.Add(_menu);
@@ -76,26 +93,26 @@ namespace uOrder
             Brush menu_brush = menu.BorderBrush;
             Brush help_brush = help.BorderBrush;
             Brush receipt_brush = receipt.BorderBrush;
-            
+
             if (new ConfirmDialog("Do you want to call the waiter?", "Call Waiter").ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 //service.Background = Brushes.DarkGray;
                 border.Background = Brushes.DarkGray;
-                border.BorderBrush = white;
+                border.BorderBrush = Brushes.YellowGreen;
 
                 new MessageDialog("The waiter has been called. Please wait.").ShowDialog();
-                
+
             }
             menu.BorderBrush = darkRed;
             help.BorderBrush = darkRed;
             receipt.BorderBrush = darkRed;
-            //call.BorderBrush = white;
+            call.BorderBrush = Brushes.Yellow;
 
             menu.BorderBrush = menu_brush;
             help.BorderBrush = help_brush;
             receipt.BorderBrush = receipt_brush;
-            call.BorderBrush = darkRed;
-            
+            //call.BorderBrush = darkRed;
+
 
         }
 
@@ -105,19 +122,40 @@ namespace uOrder
             start.Visibility = Visibility.Hidden;
             enter.Visibility = Visibility.Hidden;
             menu.BorderBrush = white;
-            page_viewer.Children.Clear();
-            page_viewer.Children.Add(_menu);
             //the hit box is back because i had to to implement the home button, but it shouldn't be an issue on a touch screen 
         }
 
         private void home_Click(object sender, RoutedEventArgs e)
         {
-            start.Visibility = Visibility.Visible; 
+            start.Visibility = Visibility.Visible;
             enter.Visibility = Visibility.Visible;
         }
 
-        private void start_Click_1(object sender, RoutedEventArgs e)
+
+        private void page_viewer_TouchDown(object sender, TouchEventArgs e)
         {
+            TouchStart = e.GetTouchPoint(this);
+        }
+
+        private void page_viewer_TouchMove(object sender, TouchEventArgs e)
+        {
+            if (!AlreadySwiped)
+            {
+                var Touch = e.GetTouchPoint(this);
+
+                //right now a swipe is 200 pixels 
+
+                //Swipe Left
+
+                if (TouchStart != null && Touch.Position.X > (TouchStart.Position.X + 900))
+                {
+                    start_Click(sender, e);
+                    AlreadySwiped = true;
+                }
+
+            }
+
+            e.Handled = true;
 
         }
     }
