@@ -148,7 +148,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken Wings", "biryani, salt & pepper, honey garlic, hot - 13 ½", 13.5, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken Wings", "biryani, salt & pepper, honey garlic, hot - 13 ½", 13.5, false, false, "Biryani", "Salt & Pepper", "Honey Garlic", "Hot"));
 

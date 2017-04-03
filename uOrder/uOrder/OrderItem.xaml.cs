@@ -41,19 +41,33 @@ namespace uOrder
             this.price = price;
             _menu = menu;
             this.addOns = addOns;
-            this.addOns2 = addOns2 == null? null : "\n" + addOns2;
-            this.addOns3 = addOns3 == null ? null : "\n" + addOns3;
+            this.addOns2 = addOns2;
+            this.addOns3 = addOns3;
             this.addPrice = addPrice;
             this.addPrice2 = addPrice2;
             this.addPrice3 = addPrice3;
             this.dropItem = dropItem;
             this.item_title.Content = title;
+
             if (addOns != null)
             {
                 this.addOn_details.Visibility = Visibility.Visible;
-            
             }
-            this.addOn_details.Text = this.addOns + this.addOns2 + this.addOns3;
+            if (addOns2 != null)
+            {
+                this.addOn_details2.Visibility = Visibility.Visible;
+            }
+            if (addOns3 != null)
+            {
+                this.addOn_details3.Visibility = Visibility.Visible;
+            }
+            if (dropItem != null)
+            {
+                this.drop_details.Visibility = Visibility.Visible;
+            }
+            this.addOn_details.Text = addOns;
+            this.addOn_details2.Text = addOns2;
+            this.addOn_details3.Text = addOns3;
             this.drop_details.Text = dropItem;
             this.item_details.Text = details;
             this.item_price.Content = price.ToString("F");
@@ -74,7 +88,7 @@ namespace uOrder
                     _menu.order_stack.Children.Add(_menu.empty);
                     _menu.order_stack.Children.Add(_menu.empty2);
                 }
-                _menu.subtotal -= price - addPrice - addPrice2 - addPrice3;
+                _menu.subtotal = price - addPrice - addPrice2 - addPrice3;
                 _menu.gst = _menu.subtotal * 0.05;
                 _menu.total = _menu.gst + _menu.subtotal;
                 _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");

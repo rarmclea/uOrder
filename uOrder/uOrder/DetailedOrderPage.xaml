@@ -12,8 +12,6 @@
                 <Button Margin="-0,0,710,10" Background="#FFC7C2C2" Width="162" BorderThickness="0" BorderBrush="#C7C2C2" Click="Button_Click_1" Height="95">
                     <Image Name="back" Source="back_red.png" Stretch="Fill" Width="162" Height="95"/>
                 </Button>
-
-
                 <StackPanel  Margin="0,0" Orientation="Horizontal">
                     <Label Name="title" FontSize="36" FontWeight="Bold"/>
                     <Image x:Name="iconoceanwise"  Source="image3.png" Height="30" Width="35" Visibility="Collapsed"/>
@@ -21,8 +19,7 @@
                 </StackPanel>
 
             <StackPanel Margin="0,0" Height="260">
-                <TextBlock x:Name="details" FontSize="22" Margin="0, 0, 0 , 0"/>
-                    <Label Content="A note for the kitchen:" FontSize="22"/>
+                    <TextBlock x:Name="details" FontSize="22" Margin="0, 0, 0 , 0"/>
                     <CheckBox Name="checkbox" FontSize="11" Checked="checkbox_Checked" Visibility="Collapsed" Content="">
                     <CheckBox.LayoutTransform>
                         <ScaleTransform ScaleX="2" ScaleY="2" />
@@ -38,13 +35,14 @@
                         <ScaleTransform ScaleX="2" ScaleY="2" />
                     </CheckBox.LayoutTransform>
                 </CheckBox>
-                <ComboBox Name="dropDown" FontSize="18" Visibility="Collapsed" Width="348" HorizontalAlignment="Left" Text="-- Select Type --" IsEditable="True" IsReadOnly="True" >
+                <ComboBox Name="dropDown" FontSize="18" Visibility="Collapsed" Width="348" HorizontalAlignment="Left" Text="-- Select --" IsEditable="True" IsReadOnly="True" >
                     <ComboBoxItem Name="firstItem"></ComboBoxItem>
                     <ComboBoxItem Name="secondItem" Visibility="Collapsed"></ComboBoxItem>
                     <ComboBoxItem Name="thirdItem" Visibility="Collapsed"></ComboBoxItem>
                     <ComboBoxItem Name="fourthItem" Visibility="Collapsed"></ComboBoxItem>
                 </ComboBox>
-                <TextBox GotFocus ="notes_GotFocus" Name="notes" Width="874" Height="181" FontFamily="Courier New" FontSize="20" TextWrapping="Wrap" AcceptsReturn="True" LostFocus="notes_LostFocus">
+                    <Label Content="A note for the kitchen:" FontSize="22"/>
+                    <TextBox GotFocus ="notes_GotFocus" Name="notes" Width="874" Height="181" FontFamily="Courier New" FontSize="20" TextWrapping="Wrap" AcceptsReturn="True" LostFocus="notes_LostFocus">
                     Enter preferences or allergies here
                 </TextBox>
             </StackPanel>

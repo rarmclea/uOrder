@@ -24,15 +24,10 @@ namespace uOrder
         double price;
         string item;
         MenuPage _menu;
-
-
         double addPrice;
         double addPrice2;
         double addPrice3;
-        String drop1;
-        String drop2;
-        String drop3;
-        String drop4;
+        String dropItem = null;
         bool refillable = false;
 
 
@@ -99,26 +94,23 @@ namespace uOrder
 
             dropDown.Visibility = Visibility.Visible;
             firstItem.Content = drop1;
-            if (!drop2.Equals(null))
+            if (drop2 != null)
             {
                 secondItem.Visibility = Visibility.Visible;
                 secondItem.Content = drop2;
             }
-            if (!drop3.Equals(null))
+            if (drop3 != null)
             {
                 thirdItem.Visibility = Visibility.Visible;
                 thirdItem.Content = drop3;
             }
-            if (!drop4.Equals(null))
+            if (drop4 != null)
             {
                 fourthItem.Visibility = Visibility.Visible;
                 fourthItem.Content = drop4;
             }
-            this.drop1 = drop1;
-            this.drop2 = drop2;
-            this.drop3 = drop3;
-            this.drop4 = drop4;
         }
+
 
         public void setAsRefillable()
         {
@@ -138,17 +130,12 @@ namespace uOrder
                 one.Text = item;
                 one.FontSize = 22;
                 String details = "";
-                String dropItem = "";
                 String addOns = null;
                 String addOns2 = null;
                 String addOns3 = null;
 
                 if (notes.Text != "Enter preferences or allergies here")
-
-                {
                     details = "\" " + notes.Text + " \"";
-
-                }
                 double currentPrice = price;
                 if ((bool)checkbox.IsChecked)
                 {
@@ -165,14 +152,9 @@ namespace uOrder
                     addOns3 = (String)this.checkbox3.Content;
                     currentPrice += addPrice3;
                 }
-                if (firstItem.IsSelected)
-                    addOns = drop1;
-                else if (secondItem.IsSelected)
-                    addOns = drop2;
-                else if (thirdItem.IsSelected)
-                    addOns = drop3;
-                else if (fourthItem.IsSelected)
-                    addOns = drop4;
+                dropItem = dropDown.Text;
+                if (dropItem.Equals("-- Select --"))
+                    dropItem = null;
                 OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
                 if (refillable)
                     oi.setAsRefillable();
