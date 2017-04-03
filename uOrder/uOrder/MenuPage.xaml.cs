@@ -35,36 +35,41 @@ namespace uOrder
 
         private void order_Click(object sender, RoutedEventArgs e)
         {
-            ConfirmDialog cd = new ConfirmDialog("Are you ready to place your order?", "Place Order");
-            if (cd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (order_stack.Children.Contains(empty))
+                new MessageDialog("Your order is empty! Add items to your order by clicking 'Add to Order' on the detailed order page.").ShowDialog();
+            else
             {
-                OrderItem[] array = new OrderItem[order_stack.Children.Count];
-                order_stack.Children.CopyTo(array, 0);
-                _receipt.receipt_stack.Children.Remove(_receipt.empty);
-                _receipt.receipt_stack.Children.Remove(_receipt.empty2);
-                for (int i = 0; i < array.Length; i++)
+                ConfirmDialog cd = new ConfirmDialog("Are you ready to place your order?", "Place Order");
+                if (cd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
-                    OrderItem oi = array[i];
-                    String addons = oi.addOns + oi.addOns2 + oi.addOns3;
-                    _receipt.receipt_stack.Children.Add(new ReceiptItem(oi.title, oi.details, oi.price, addons, oi.refillable));
-                }
-                order_stack.Children.Clear();
-                _receipt.gst += this.gst;
-                _receipt.subtotal += this.subtotal;
-                _receipt.total += this.total;
-                _receipt.sub_label.Content = "Subtotal: $" + _receipt.subtotal.ToString("F");
-                _receipt.gst_label.Content = "GST: $" + _receipt.gst.ToString("F");
-                _receipt.tot_label.Content = "Total: $" + _receipt.total.ToString("F");
-                gst = 0.0;
-                subtotal = 0.0;
-                total = 0.0;
-                sub_label.Content = "Subtotal: $" + subtotal.ToString("F");
-                gst_label.Content = "GST: $" + gst.ToString("F");
-                tot_label.Content = "Total: $" + total.ToString("F");
-                order_stack.Children.Add(empty);
-                order_stack.Children.Add(empty2);
-                new MessageDialog("Your order has been sent to the kitchen. You can view ordered items under 'View Receipt' or order more items under 'Menu'").ShowDialog();
+                    OrderItem[] array = new OrderItem[order_stack.Children.Count];
+                    order_stack.Children.CopyTo(array, 0);
+                    _receipt.receipt_stack.Children.Remove(_receipt.empty);
+                    _receipt.receipt_stack.Children.Remove(_receipt.empty2);
+                    for (int i = 0; i < array.Length; i++)
+                    {
+                        OrderItem oi = array[i];
+                        String addons = oi.addOns + oi.addOns2 + oi.addOns3;
+                        _receipt.receipt_stack.Children.Add(new ReceiptItem(oi.title, oi.details, oi.price, addons, oi.refillable));
+                    }
+                    order_stack.Children.Clear();
+                    _receipt.gst += this.gst;
+                    _receipt.subtotal += this.subtotal;
+                    _receipt.total += this.total;
+                    _receipt.sub_label.Content = "Subtotal: $" + _receipt.subtotal.ToString("F");
+                    _receipt.gst_label.Content = "GST: $" + _receipt.gst.ToString("F");
+                    _receipt.tot_label.Content = "Total: $" + _receipt.total.ToString("F");
+                    gst = 0.0;
+                    subtotal = 0.0;
+                    total = 0.0;
+                    sub_label.Content = "Subtotal: $" + subtotal.ToString("F");
+                    gst_label.Content = "GST: $" + gst.ToString("F");
+                    tot_label.Content = "Total: $" + total.ToString("F");
+                    order_stack.Children.Add(empty);
+                    order_stack.Children.Add(empty2);
+                    new MessageDialog("Your order has been sent to the kitchen. You can view ordered items under 'View Receipt' or order more items under 'Menu'").ShowDialog();
 
+                }
             }
         }
 

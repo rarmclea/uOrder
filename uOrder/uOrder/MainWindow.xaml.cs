@@ -43,9 +43,7 @@ namespace uOrder
             */
 
             _menu = new MenuPage(_receipt);
-            page_viewer.Children.Add(_menu);
-            menu.Background = Brushes.DarkGray;
-            menu.BorderBrush = white;
+            page_viewer.Children.Add(_help);
 
 
         }

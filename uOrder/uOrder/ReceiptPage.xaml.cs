@@ -30,12 +30,14 @@ namespace uOrder
 
         private void pay_Click(object sender, RoutedEventArgs e)
         {
-            if (new ConfirmDialog("How would you like to pay for your order?", "Cash", "Credit").ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
-                new MessageDialog("Your server is on the way with the cheque").ShowDialog();
-                pay.Content = "Payment Pending";
-                pay.FontSize = 18;
-            }
+            if (receipt_stack.Children.Contains(empty))
+                new MessageDialog("You haven't ordered any items! Place an order by clicking 'Place Order' in the menu page.").ShowDialog();
+            else if (new ConfirmDialog("How would you like to pay for your order?", "Cash", "Credit").ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    new MessageDialog("Your server is on the way with the cheque").ShowDialog();
+                    pay.Content = "Payment Pending";
+                    pay.FontSize = 18;
+                }
         }
     }
 }
