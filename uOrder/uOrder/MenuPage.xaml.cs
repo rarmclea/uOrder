@@ -40,8 +40,14 @@ namespace uOrder
             {
                 OrderItem[] array = new OrderItem[order_stack.Children.Count];
                 order_stack.Children.CopyTo(array, 0);
+                _receipt.receipt_stack.Children.Remove(_receipt.empty);
+                _receipt.receipt_stack.Children.Remove(_receipt.empty2);
                 for (int i = 0; i < array.Length; i++)
-                    _receipt.receipt_stack.Children.Add(new ReceiptItem(array[i].title, array[i].details, array[i].price, array[i].refillable));
+                {
+                    OrderItem oi = array[i];
+                    String addons = oi.addOns + oi.addOns2 + oi.addOns3;
+                    _receipt.receipt_stack.Children.Add(new ReceiptItem(oi.title, oi.details, oi.price, addons, oi.refillable));
+                }
                 order_stack.Children.Clear();
                 _receipt.gst += this.gst;
                 _receipt.subtotal += this.subtotal;
@@ -147,7 +153,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Lettuce Wraps", "fresh veggies, cashews, chow mein noodles, ginger soy glaze - 13 ¾ \n add chicken - 5", 13.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Lettuce Wraps", "fresh veggies, cashews, chow mein noodles, ginger soy glaze - 13 ¾", 13.75, false, false, true, "Add chicken 5", null, null, 5, 0, 0));
 
@@ -157,7 +162,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Double Cheese Nachos Share Platter", "19 ¾ \n add beef - 5 \n add pulled chicken - 5", 19.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Double Cheese Nachos Share Platter", "19 ¾", 19.75, false, false, true, "Add beef 5", "Add pulled chicken 5", null, 5, 5, 0));
 
@@ -167,7 +171,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Double Cheese Nachos for One or Two", "13 ¾ \n add beef - 5 \n add pulled chicken - 5", 13.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Double Cheese Nachos for One or Two", "13 ¾", 13.75, false, false, true, "Add beef 5", "Add pulled chicken 5", null, 5, 5, 0));
 
@@ -201,10 +204,7 @@ namespace uOrder
         private void fs_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
-
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Feauture Soup", "7 ¾", 7.75, false, false));
-
             page_viewer.Children.Add(new DetailedOrderPage(this, "Feauture Soup", "7 ¾", 7.75, false, false, "Chicken Noodle", "Mushroom Soup", "Minestrone", null));
 
         }
@@ -272,7 +272,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin", "7 oz certified angus beef (cab®) - 25 ¾ \n add madagascar peppercorn brandy sauce 3½", 25.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin", "7 oz certified angus beef (cab®) - 25 ¾", 25.75, false, false, true, "Add madagascar peppercorn brandy sauce 3½", null, null, 3.50, 0, 0));
 
@@ -362,8 +361,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken + Ribs", "half rack of ribs, spice rubbed chicken, choice of potato + fresh seasonal vegetables - 25 ¾ \n add a second chicken breast 5", 25.75, false, false));
-
             page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken + Ribs", "half rack of ribs, spice rubbed chicken, choice of potato + fresh seasonal vegetables - 25 ¾", 25.75, false, false, true, "Add a second chicken breast 5", null, null, 5, 0, 0));
 
         }
@@ -382,7 +379,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Herb Alfredo", "grana padano, penne, asiago cream, chives - 13 ¾ \n add chicken 5", 13.75, true, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Herb Alfredo", "grana padano, penne, asiago cream, chives - 13 ¾", 13.75, true, false, true, "Add chicken 5", null, null, 5, 0, 0));
 
@@ -407,7 +403,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Ginger Teriyaki Rice Bowl", "fresh asian veggies, chipotle yogurt - 12 ¾ \n add chicken 5 \n add steak 6", 12.75, true, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Ginger Teriyaki Rice Bowl", "fresh asian veggies, chipotle yogurt - 12 ¾", 12.75, true, false, true, "Add chicken 5", "Add steak 6", null, 5, 6, 0));
 
@@ -418,7 +413,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Red Thai Curry Bowl", "fresh baked flatbread, three dips - 9 ¾ \n add chicken - 5", 14.50, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Red Thai Curry Bowl", "fresh baked flatbread, three dips - 14 ½", 14.50, false, false, true, "Add chicken 5", null, null, 5, 0, 0));
 
@@ -433,18 +427,6 @@ namespace uOrder
 
         //Burgers
 
-        private void bcb_Click(object sender, RoutedEventArgs e)
-        {
-
-            //menu.Visibility = Visibility.Collapsed;
-            //downArrowCover.Visibility = Visibility.Collapsed;
-            //page_viewer.Children.Add(new DetailedOrderPage(this, "Blackened Chicken Burger", "crisp pancetta bacon, american cheddar, roasted garlic mayo - 16", 16.00, false, false));
-
-            menu.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Blackened Chicken Burger", "crisp pancetta bacon, american cheddar, roasted garlic mayo - 16", 16.00, false, false));
-
-        }
-
         private void pvb_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
@@ -457,8 +439,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "The Burger", " hand-formed chuck + brisket patty, red relish, pickled mustard seed mayo - 14 ¾ \n add bacon 1½ \n add aged white cheddar 1½ \n add sautéed mushroom 1½", 14.75, false, false));
-
             page_viewer.Children.Add(new DetailedOrderPage(this, "The Burger", " hand-formed chuck + brisket patty, red relish, pickled mustard seed mayo - 14 ¾", 14.75, false, false, true, "Add bacon 1½", "Add aged white cheddar 1½", "Add sautéed mushroom 1½", 1.50, 1.50, 1.50));
 
         }
@@ -606,7 +586,9 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Assorted Teas", "aromatically made over cured leaves - 3 ½", 3.50, false, false));
+            DetailedOrderPage dop = new DetailedOrderPage(this, "Assorted Teas", "aromatically made over cured leaves - 3 ½", 3.50, false, false);
+            dop.setAsRefillable();
+            page_viewer.Children.Add(dop);
         }
 
         private void sm_Click(object sender, RoutedEventArgs e)
@@ -620,7 +602,9 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Bottomless Beverages", "choose from our wide selection of thirst-quenching drinks - 3", 3.00, false, false));
+            DetailedOrderPage dop = new DetailedOrderPage(this, "Bottomless Beverages", "choose from our wide selection of thirst-quenching drinks - 3", 3.00, false, false);
+            dop.setAsRefillable();
+            page_viewer.Children.Add(dop);
 
         }
         private void tc_Click(object sender, RoutedEventArgs e)
@@ -672,7 +656,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken Bites", "served with your choice of fries, salad or veggies + dip - 9 ¾", 9.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Chicken Bites", "served with your choice of fries, salad or veggies + dip - 9 ¾", 9.75, false, false, "Fries", "Salad", "Veggies & Dip", null));
 
@@ -683,7 +666,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Jr Cheeseburger", "with cheddar cheese + ketchup, served with your choice of fries, salad or veggies + \n dip - 9 ¾", 9.75, false, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Jr Cheeseburger", "with cheddar cheese + ketchup, served with your choice of fries, salad or veggies + \n dip - 9 ¾", 9.75, false, false, "Fries", "Salad", "Veggies & Dip", null));
 }
@@ -693,7 +675,6 @@ namespace uOrder
             menu.Visibility = Visibility.Collapsed;
 
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Grilled Cheese Sandwich", "white or multi-grain bread, served with your choice of fries, salad or veggies + dip - 9 ¾", 9.75, true, false));
 
             page_viewer.Children.Add(new DetailedOrderPage(this, "Grilled Cheese Sandwich", "white or multi-grain bread, served with your choice of fries, salad or veggies + dip - 9 ¾", 9.75, true, false, "Fries", "Salad", "Veggies & Dip", null));
 
@@ -724,9 +705,7 @@ namespace uOrder
             if (scroll.ContentVerticalOffset == scroll.ScrollableHeight)
             {
                 if (page_viewer.Children.Contains(downArrowCover))
-                {
                     page_viewer.Children.Remove(downArrowCover);
-                }
 
             }
             else
@@ -736,12 +715,6 @@ namespace uOrder
                     page_viewer.Children.Add(downArrowCover);
                 }
             }
-
-
-
-
         }
-
-
     }
 }

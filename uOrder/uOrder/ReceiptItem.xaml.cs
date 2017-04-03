@@ -22,13 +22,16 @@ namespace uOrder
     {
         String title;
         String details;
+        String addons;
         double price;
-        public ReceiptItem(String title, String details, double price, bool refillable)
+        public ReceiptItem(String title, String details, double price, String addons, bool refillable)
         {
             InitializeComponent();
             this.title = title;
             this.details = details;
             this.price = price;
+            this.addons = addons;
+            this.addons_details.Text = addons;
             this.item_title.Content = title;
             this.item_details.Text = details;
             this.item_price.Content = price.ToString("F");

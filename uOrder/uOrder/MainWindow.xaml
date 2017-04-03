@@ -21,25 +21,21 @@
         </StackPanel>
         <StackPanel>
             <Button Name="button1" Grid.Row="0"  IsHitTestVisible="False" Background="#FF4F0D0D" >
-                <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Source="uOrderLogo.png" Stretch="Uniform"/>
+                <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Height="100" Source="uOrderLogo.png" Stretch="Uniform"/>
             </Button>
         </StackPanel>
-        <Button Name="home" Grid.Row="0" Margin="258,10,1658.4,56.8" BorderThickness="0" Click="home_Click">
-            <Image x:Name="Image11_png" Height="30" Source="home_icon.png" Stretch="Fill" Width="30"/>
+        <Button Name="home" Grid.Row="0" Margin="268,20,1617.4,19.8" BorderThickness="0" Click="home_Click">
+            <Image x:Name="Image11_png" Source="home_icon.png" Stretch="Uniform"/>
         </Button>
-        <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="DarkGray" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="971,20,806,20"  Click="menu_Click"/>
+        <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1212,20,565.4,19.8"  Click="menu_Click"/>
         <!--Button Name="help" Grid.Row="0" Content=" HELP" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1060,20,754,20"  Click="help_Click"/-->
-        <Button Name="help" Grid.Row="0" Margin="258,55,1658.4,12.8" Click="help_Click" BorderThickness="0">
-            <Image x:Name="hel3" Height="30" Source="question_icon.png" Stretch="Fill" Width="30"/>
+        <Button Name="help" Grid.Row="0" Margin="352,20,1532.4,19.8" Click="help_Click" BorderThickness="0">
+            <Image x:Name="hel3" Source="question_icon.png" Stretch="Uniform"/>
         </Button>
-        <Button Name="receipt" Grid.Row="0" Content="VIEW RECEIPT" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1292,20,387,20" Click="receipt_Click"/>
-        <Border Name="border" BorderBrush="#FF4F0D0D" BorderThickness="4" Margin="1684,7,84,10" Grid.Row="0"/>
-        <StackPanel>
-            <TextBlock x:Name="service" FontSize="18" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" Margin="1732,60,127,60" TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="SERVICE" Height="27"/>
-            <Button x:Name="call" Margin="1732,-220,127,0" Click="call_Click" BorderThickness="0" Height="42">
-                <Image x:Name="Image10_png" RenderOptions.BitmapScalingMode="HighQuality" Width="68" Source="Image10.png" Stretch="Fill" Height="42"/>
-            </Button>
-        </StackPanel>
+        <Button Name="receipt" Grid.Row="0" Content="VIEW RECEIPT" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1491,21,188.4,19.8" Click="receipt_Click"/>
+        <Button x:Name="call" Margin="436,15,1442.4,16.8" Click="call_Click" BorderBrush="#FF4F0D0D" BorderThickness="3">
+            <Image x:Name="Image10_png" RenderOptions.BitmapScalingMode="HighQuality" Source="Image10.png" Stretch="Uniform"/>
+        </Button>
 
         <Image x:Name="Image5_png" Grid.Row="2" Margin="25,10,1450,27" Source="Image5.png" Stretch="Uniform"/>
         <Rectangle Grid.Row="1" Fill="#FFC7C2C2"/>
@@ -47,17 +43,12 @@
 
         </StackPanel>
         <Button Name="enter" Content="Button" Grid.Row="1"  Width="1932" Height="908" Click="start_Click" Opacity="0" Margin="0,0,-2,0"/>
-        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" >
+        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" Visibility="Collapsed">
             <StackPanel>
                 <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Visibility="Visible" Width="2034" Height="778" Margin="-80,0,-20,0"/>
                 <Label Content="Swipe to continue >>" Foreground="White" FontSize="34" HorizontalContentAlignment="Center" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-
-
-
-
-
     </Grid>
 </Window>
 

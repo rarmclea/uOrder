@@ -30,6 +30,7 @@ namespace uOrder
         double addPrice2;
         double addPrice3;
         String dropItem = null;
+        bool refillable = false;
 
 
         public DetailedOrderPage(MenuPage menu, String itemTitle, String itemDetails, double price, bool veg, bool wise)
@@ -120,15 +121,13 @@ namespace uOrder
                 dropItem = drop4;
         }
 
+        public void setAsRefillable()
+        {
+            refillable = true;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-            //if (_menu.order_stack.Children.Count == 2)
-            //{
-            //   _menu.order_stack.Children.RemoveAt(_menu.order_stack.Children.Count - 2);
-            // _menu.order_stack.Children.RemoveAt(_menu.order_stack.Children.Count - 1);
-            //}
-
 
             _menu.order_stack.Children.Remove(_menu.empty);
             _menu.order_stack.Children.Remove(_menu.empty2);
@@ -147,25 +146,30 @@ namespace uOrder
                 details = "\" " + notes.Text + " \"";
 
             }
-
-            OrderItem oi = new OrderItem(_menu, item, details, price);
-            _menu.order_stack.Children.Add(oi);
-
-            _menu.subtotal += price;
-            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
-
-                details = notes.Text;
+            double currentPrice = price;
             if ((bool)checkbox.IsChecked)
+            {
                 addOns = (String)this.checkbox.Content;
+                currentPrice += addPrice;
+            }
             if ((bool)checkbox2.IsChecked)
+            {
                 addOns2 = (String)this.checkbox2.Content;
+                currentPrice += addPrice2;
+            }
             if ((bool)checkbox3.IsChecked)
+            {
                 addOns3 = (String)this.checkbox3.Content;
-            OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
-            _menu.order_stack.Children.Add(oi);
-            _menu.subtotal = price + addPrice + addPrice2 + addPrice3;
-            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
+                currentPrice += addPrice3;
+            }
 
+            OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
+            if (refillable)
+                oi.setAsRefillable();
+            _menu.order_stack.Children.Add(oi);
+
+            _menu.subtotal += currentPrice;
+            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
             _menu.total = _menu.subtotal + _menu.gst;
             _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
             _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");

@@ -216,6 +216,66 @@
   <ItemGroup>
     <Resource Include="question_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="share.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="burgers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="desert.jpg" />
+    <Resource Include="steak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mains.png" />
+    <Resource Include="pasta.png" />
+    <Resource Include="pizza.jpg" />
+    <Resource Include="salad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="drinks.jpg" />
+    <Resource Include="handhelds.jpg" />
+    <Resource Include="kids.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image22.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

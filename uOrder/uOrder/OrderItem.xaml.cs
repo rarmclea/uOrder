@@ -41,8 +41,8 @@ namespace uOrder
             this.price = price;
             _menu = menu;
             this.addOns = addOns;
-            this.addOns2 = addOns2;
-            this.addOns3 = addOns3;
+            this.addOns2 = addOns2 == null? null : "\n" + addOns2;
+            this.addOns3 = addOns3 == null ? null : "\n" + addOns3;
             this.addPrice = addPrice;
             this.addPrice2 = addPrice2;
             this.addPrice3 = addPrice3;
@@ -51,16 +51,9 @@ namespace uOrder
             if (addOns != null)
             {
                 this.addOn_details.Visibility = Visibility.Visible;
+            
             }
-            if (addOns2 != null)
-            {
-                this.addOn_details2.Visibility = Visibility.Visible;
-            }
-            if (addOns3 != null)
-            {
-                this.addOn_details3.Visibility = Visibility.Visible;
-            }
-            this.addOn_details.Text = addOns + "\n" + addOns2 + "\n" + addOns3;
+            this.addOn_details.Text = this.addOns + this.addOns2 + this.addOns3;
             this.drop_details.Text = dropItem;
             this.item_details.Text = details;
             this.item_price.Content = price.ToString("F");
@@ -76,7 +69,7 @@ namespace uOrder
             if (new ConfirmDialog("Are you sure you want to remove this item?", "Remove item").ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 _menu.order_stack.Children.Remove(this);
-                _menu.subtotal = price - addPrice - addPrice2 - addPrice3;
+                _menu.subtotal -= price - addPrice - addPrice2 - addPrice3;
                 _menu.gst = _menu.subtotal * 0.05;
                 _menu.total = _menu.gst + _menu.subtotal;
                 _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");

@@ -14,17 +14,17 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1">
             <Label FontSize="40" Content="YOUR ORDER" FontWeight="Bold" Margin="10,0,728,0" />
-            <ScrollViewer PanningMode="Both" Height="560"  Width="926" VerticalScrollBarVisibility="Hidden"  Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
+            <ScrollViewer PanningMode="Both" Height="517"  Width="926" VerticalScrollBarVisibility="Hidden"  Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
                 <StackPanel Margin="10,0" Name="order_stack">
                     <Label Name="empty" Height="67" Content="Your order is empty." FontStyle="Italic" FontSize="40" Foreground="DarkRed" Width="362" Margin="0,200,0,-200"/>
                     <Label Name="empty2" Height="68" Content="Please select an item from the menu." FontStyle="Italic" FontSize="30" Foreground="DarkRed" Width="498" Margin="0,200,0,0"/>
 
                 </StackPanel>
             </ScrollViewer>
-            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="16" Margin="15,0,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="925"/>
+            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="16" Margin="15,0,0,0" HorizontalContentAlignment="Right"  Width="925"/>
             <Label Name="gst_label" Content="GST: $0.00" FontSize="16" Margin="15,0,59,0" HorizontalContentAlignment="Right"/>
             <Label Name="tot_label" Content="Total: $0.00" FontSize="24" Margin="15,-4,59,0" HorizontalContentAlignment="Right"/>
-            <Button x:Name="order" Content="Place Order" Height="40" Margin="728,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="order_Click" Background="DarkRed" HorizontalAlignment="Left" Width="212"/>
+            <Button x:Name="order" Content="Place Order" Height="40" Margin="699,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="order_Click" Background="DarkRed" HorizontalAlignment="Left" Width="241"/>
         </StackPanel>
         <StackPanel Name="page_viewer" Grid.Column="0">
             <Label FontSize="40" Content="MENU" FontWeight="Bold" Margin="8,0,0,0" />
@@ -35,6 +35,7 @@
 
 
                         <StackPanel Width="740">
+                            <Image x:Name="Image12_png" Height="251" Margin="0,0,0,0" Source="Image12.png" Stretch="Uniform"/>
                             <Button Name="tpiaj" Background="White" BorderThickness="0" Click="tpiaj_Click">
                                 <TextBlock Width="735" Margin="0,20" Foreground="Black">
                                     TUNA POKE IN A JAR <LineBreak/> 
@@ -137,7 +138,7 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            <Button Background="White" BorderThickness="0">
+                            <Button Background="White" BorderThickness="0" Click="dcn12_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     DOUBLE CHEESE NACHOS FOR ONE OR TWO <LineBreak/> 
                                     13 ¾ <LineBreak/>
@@ -153,6 +154,7 @@
                 <TabItem Header="PIZZAS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" ScrollChanged="ScrollViewer_ScrollChanged" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image15_png" Height="258" Margin="-6,0,0,0" Source="Image15.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="ri_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                 RUSTIC ITALIAN <LineBreak/> 
@@ -173,6 +175,7 @@
                 <TabItem Header="SOUPS + SALADS" FontFamily="Montreal" FontSize="16" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" ScrollChanged="ScrollViewer_ScrollChanged" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image16_png" Height="262" Margin="0,0,0,0" Source="Image16.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="bcs_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     BROCCOLI CHEESE SOUP <LineBreak/> 
@@ -251,6 +254,7 @@
                 <TabItem Header="STEAKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" ScrollChanged="ScrollViewer_ScrollChanged" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image14_png" Height="233" Margin="0,0,0,0" Source="Image14.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0"  Click="s_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     SIRLOIN <LineBreak/> 
@@ -300,6 +304,7 @@
                 <TabItem Header="MAINS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" ScrollChanged="ScrollViewer_ScrollChanged" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image17_png" Height="262" Margin="0,0,0,0" Source="Image17.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="mds_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     MUSTARD + DILL SALMON <LineBreak/> 
@@ -358,6 +363,7 @@
                 <TabItem Header="PASTA + RICE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" ScrollChanged="ScrollViewer_ScrollChanged" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image18_png" Height="257" Margin="0,0,0,0" Source="Image18.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="cmr_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     CHICKAN MADEIRA RIGATONI <LineBreak/> 
@@ -416,7 +422,8 @@
                 <TabItem Header="BURGERS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" ScrollChanged="ScrollViewer_ScrollChanged" Height="720" Width="760">
                         <StackPanel Width="740">
-                            <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" Click="bcb_Click">
+                            <Image x:Name="Image13_png" Height="253" Source="Image13.png" Stretch="Uniform"/>
+                            <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" >
                                 <Button.Style>
                                     <Style TargetType="Button">
                                         <Setter Property="Content" Value="BLACKENED CHICKEN BURGER &#x0a; crisp pancetta bacon, american cheddar, roasted garlic mayo - 16"/>
@@ -476,6 +483,7 @@
                 <TabItem Header="HANDHELDS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" ScrollChanged="ScrollViewer_ScrollChanged" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image20_png" Height="281" Margin="0,0,0,0" Source="Image20.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="st_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     STREET TACOS <LineBreak/> 
@@ -557,6 +565,7 @@
                 <TabItem Header="DESSERTS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" ScrollChanged="ScrollViewer_ScrollChanged" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image19_png" Height="262" Margin="0,0,0,0" Source="Image19.png" Stretch="Fill"/>
                             <Button Background="White" BorderThickness="0" Click="scpc_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     SALTED CARAMEL + PECAN CHEESECAKE <LineBreak/> 
@@ -620,6 +629,7 @@
                 <TabItem Header="DRINKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" ScrollChanged="ScrollViewer_ScrollChanged" Width="760">
                         <StackPanel Width="740">
+                            <Image x:Name="Image21_png" Height="291" Margin="0,0,0,0" Source="Image21.png" Stretch="Uniform"/>
                             <Button Background="White" BorderThickness="0" Click="at_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     ASSORTED TEAS <LineBreak/> 
@@ -684,6 +694,7 @@
                 <TabItem Header="KIDS MENU" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="712" ScrollChanged="ScrollViewer_ScrollChanged" Width="760" Margin="0,0,-4,0">
                         <StackPanel Width="740" Height="766">
+                            <Image x:Name="Image22_png" Height="304" Margin="0" Source="Image22.png" Stretch="Fill"/>
                             <Button Background="White" BorderThickness="0" Click="kp_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                 KIDS' PENNE <LineBreak/> 
