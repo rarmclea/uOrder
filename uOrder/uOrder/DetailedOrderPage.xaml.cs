@@ -171,7 +171,7 @@ namespace uOrder
                     addOns = drop2;
                 else if (thirdItem.IsSelected)
                     addOns = drop3;
-                else
+                else if (fourthItem.IsSelected)
                     addOns = drop4;
                 OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
                 if (refillable)

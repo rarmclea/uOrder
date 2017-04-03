@@ -21,7 +21,7 @@
 
                 </StackPanel>
             </ScrollViewer>
-            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="16" Margin="15,0,0,0" HorizontalContentAlignment="Right"  Width="925"/>
+            <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="16" Margin="46,0,59,0" HorizontalContentAlignment="Right"/>
             <Label Name="gst_label" Content="GST: $0.00" FontSize="16" Margin="15,0,59,0" HorizontalContentAlignment="Right"/>
             <Label Name="tot_label" Content="Total: $0.00" FontSize="24" Margin="15,-4,59,0" HorizontalContentAlignment="Right"/>
             <Button x:Name="order" Content="Place Order" Height="40" Margin="699,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="order_Click" Background="DarkRed" HorizontalAlignment="Left" Width="241"/>
