@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\..\Pictures\icon-veg.jpg = ..\..\..\..\Pictures\icon-veg.jpg
 		..\..\..\..\Pictures\Logo.png = ..\..\..\..\Pictures\Logo.png
 		..\..\..\logo3.png = ..\..\..\logo3.png
+		uOrder\pizza_edit.jpg = uOrder\pizza_edit.jpg
 	EndProjectSection
 EndProject
 Global

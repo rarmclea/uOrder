@@ -16,6 +16,27 @@
                     <Image x:Name="iconveg" Height="30" Source="Image8.png" Width="35" Visibility="Collapsed"/>
                 </StackPanel>
                 <TextBlock Name="details" FontSize="22" Margin="0, -10, 0 , 0"/>
+                <CheckBox Name="checkbox" FontSize="11" Checked="checkbox_Checked" Visibility="Collapsed" Content="">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox Name="checkbox2" FontSize="11" Checked="checkbox_Checked2" Visibility="Collapsed">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox Name="checkbox3" FontSize="11" Checked="checkbox_Checked3" Visibility="Collapsed">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <ComboBox Name="dropDown" FontSize="18" Visibility="Collapsed" Width="348" HorizontalAlignment="Left" Text="-- Select Type --" IsEditable="True" IsReadOnly="True" >
+                    <ComboBoxItem Name="firstItem"></ComboBoxItem>
+                    <ComboBoxItem Name="secondItem" Visibility="Collapsed"></ComboBoxItem>
+                    <ComboBoxItem Name="thirdItem" Visibility="Collapsed"></ComboBoxItem>
+                    <ComboBoxItem Name="fourthItem" Visibility="Collapsed"></ComboBoxItem>
+                </ComboBox>
                 <Label Content="A note for the kitchen:" FontSize="22"/>
                 <TextBox GotFocus ="notes_GotFocus" Name="notes" Width="874" Height="181" FontFamily="Courier New" FontSize="20" LostFocus="notes_LostFocus">
                     Enter preferences or allergies here

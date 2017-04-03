@@ -5,12 +5,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:uOrder"
              mc:Ignorable="d" 
-             d:DesignHeight="90" d:DesignWidth="875">
+             d:DesignHeight="150" d:DesignWidth="875">
     <Grid>
-        <Label Name="item_title" FontSize="22" Margin="10,0,232,54"/>
-        <TextBlock Name="item_details" FontSize="18" FontStyle="Italic" HorizontalAlignment="Right" Margin="0,36,121,10" Width="744" Foreground="DarkRed"/>
+        <Label Name="item_title" FontSize="22" Margin="10,0,232,128"/>
+        <TextBlock Name="addOn_details" FontSize="18"  Margin="10,28,232,100" Visibility="Collapsed"/>
+        <TextBlock Name="addOn_details2" FontSize="18" Visibility="Collapsed"/>
+        <TextBlock Name="addOn_details3" FontSize="18" Visibility="Collapsed"/>
+        <TextBlock Name="drop_details" FontSize="18" Visibility="Collapsed"/>
+        
+        <!--<TextBlock Name="addOn_details" FontSize="18" Margin="10,28,232,100" Visibility="Collapsed"/>
+        <TextBlock Name="addOn_details2" FontSize="18" Margin="10,52,232,76" Visibility="Collapsed"/>
+        <TextBlock Name="addOn_details3" FontSize="18" Margin="10,76,232,52" Visibility="Collapsed"/>
+        <TextBlock Name="drop_details" FontSize="18" Margin="10,100,232,28" Visibility="Collapsed"/>-->
+        <TextBlock Name="item_details" FontSize="18" FontStyle="Italic" HorizontalAlignment="Right" Margin="0,124,121,2" Width="744" Foreground="DarkRed"/>
         <Label Name="item_price" FontSize="18" Margin="648,-3,121,54"/>
-        <Button Background="DarkRed" Foreground="White" Content="Remove" Click="Button_Click" Margin="759,0,10,51" />
-        <Rectangle Height="1" Fill="Gray" Margin="0,85,0,3"/>
+        <Button Background="DarkRed" Foreground="White" Content="Remove" Click="Button_Click" Margin="759,0,10,87" />
+        <Rectangle Height="1" Fill="Gray" Margin="0,149,0,0"/>
     </Grid>
 </UserControl>

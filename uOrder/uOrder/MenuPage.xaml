@@ -30,6 +30,12 @@
                 <TabItem Header="SHARE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer PanningMode="Both" Height="720" Width="760" VerticalScrollBarVisibility="Hidden">
                         <StackPanel Width="740">
+                            <TextBlock Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center"  Background="LightGray" Margin="-18,0,-28,0">
+                                Enjoy your favourite starters like dry ribs, chicken wings, and bruschetta, <LineBreak/>
+                                or try an appetizer that’s new to you, like sushi cones, mosaic dip, <LineBreak/>
+                                or calamari.
+                            </TextBlock>
+                            <Image x:Name="share" Source="share.png" Stretch="UniformToFill" RenderTransformOrigin="0.52,0.744" Margin="0,5,0,0" Height="300" />
                             <Button Name="tpiaj" Background="White" BorderThickness="0" Click="tpiaj_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     TUNA POKE IN A JAR <LineBreak/> 
@@ -148,6 +154,13 @@
                 <TabItem Header="PIZZAS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                All our pizzas start with hand-stretched dough and are finished with <LineBreak/>
+                                delicious meats, fresh herbs, and vegetables. We bake them until the cheese  <LineBreak/>
+                                is perfectly melted, and our authentic Italian crust is just the right <LineBreak/>
+                                amount of crispy.
+                            </TextBlock>
+                            <Image x:Name="pizza" Source="pizza.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.52,0.744" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="ri_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                 RUSTIC ITALIAN <LineBreak/> 
@@ -168,6 +181,12 @@
                 <TabItem Header="SOUPS + SALADS" FontFamily="Montreal" FontSize="16" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Our salads are a lighter option, perfect for lunch or dinner. <LineBreak/>
+                                Seasonal greens, kale, and tomatoes tossed with delicious extras like <LineBreak/>
+                                cashews, quinoa, and grana padano.
+                            </TextBlock>
+                            <Image x:Name="salad" Source="salad.png" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="bcs_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     BROCCOLI CHEESE SOUP <LineBreak/> 
@@ -246,6 +265,15 @@
                 <TabItem Header="STEAKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Our steaks are “AAA” grain fed, aged a minimum of 32 days for superior <LineBreak/>
+                                flavour + tenderness. Try our unforgettable Honey Garlic Sirloin or a <LineBreak/>
+                                classic like our New York steak. <LineBreak/> <LineBreak/>
+                                Steaks are served with fresh seasonal vegetables and your choice <LineBreak/>
+                                of roasted baby potatoes, lemon quinoa or a baked potato stuffed <LineBreak/>
+                                with mashed potatoes, cream cheese, green onion + bacon.
+                            </TextBlock>
+                            <Image x:Name="steak" Source="steak.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0"  Click="s_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     SIRLOIN <LineBreak/> 
@@ -295,6 +323,13 @@
                 <TabItem Header="MAINS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Tempt your taste buds with one of our fresh salmon or free-run chicken <LineBreak/>
+                                entrées or dig in to our classic slow roasted baby back ribs brushed with <LineBreak/>
+                                Moxie’s savoury BBQ sauce. With so many flavours, we’ll give you a <LineBreak/>
+                                minute, we know it’s hard to decide!
+                            </TextBlock>
+                            <Image x:Name="main" Source="main.png" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="mds_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     MUSTARD + DILL SALMON <LineBreak/> 
@@ -353,6 +388,12 @@
                 <TabItem Header="PASTA + RICE" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Dive into pasta bowls brimming with savoury sauces, discover Indian <LineBreak/>
+                                inspired rice bowls with curry and spicy vindaloo, or crave a taste of Mexico <LineBreak/>
+                                with chicken enchiladas topped with guacamole, salsa + sour cream.
+                            </TextBlock>
+                            <Image x:Name="pasta" Source="pasta.png" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="cmr_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     CHICKAN MADEIRA RIGATONI <LineBreak/> 
@@ -411,6 +452,13 @@
                 <TabItem Header="BURGERS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Keep it classic with a Moxie's burger and fries. Our beef patties are <LineBreak/> 
+                                hand-pressed and seasoned in-house -- served juicy and perfectly grilled. <LineBreak/> 
+                                All burgers are also served on a toasted bun + topped with lettuce, <LineBreak/> 
+                                tomatoes, red onions, pickles + burger sauce and fries
+                            </TextBlock>
+                            <Image x:Name="burger" Source="burger.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" Click="sc_Click">
                                 <Button.Style>
                                     <Style TargetType="Button">
@@ -471,6 +519,12 @@
                 <TabItem Header="HANDHELDS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                We stack our sandwiches with the finest meats, crispy produce, and <LineBreak/>
+                                delectable cheeses. Or try one of our international offerings that <LineBreak/>
+                                draw on flavours from around the world. Served with fries.
+                            </TextBlock>
+                            <Image x:Name="handheld" Source="handheld.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="st_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     STREET TACOS <LineBreak/> 
@@ -552,6 +606,12 @@
                 <TabItem Header="DESSERTS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Our gourmet desserts are prepared fresh by in-house bakers. Satisfy your <LineBreak/>
+                                chocolate cravings with our white chocolate brownie or dark chocolate <LineBreak/>
+                                cake. Or dive into our gluten-friendly salted caramel + pecan cheesecake.
+                            </TextBlock>
+                            <Image x:Name="dessert" Source="dessert.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="scpc_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     SALTED CARAMEL + PECAN CHEESECAKE <LineBreak/> 
@@ -615,6 +675,12 @@
                 <TabItem Header="DRINKS" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="720" Width="760">
                         <StackPanel Width="740">
+                            <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                We’re all about the finishing touches and what we do behind the bar is a <LineBreak/>  
+                                testament to that extra step. We feature everything from your typical  <LineBreak/>
+                                alcholic drinks to your favourite non-alcoholic drinks.
+                            </TextBlock>
+                            <Image x:Name="drink" Source="drink.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                             <Button Background="White" BorderThickness="0" Click="scpc_Click">
                                 <TextBlock Width="735" Margin="0,20" Text="BEER&#xD;&#xA;big life amber &amp; euro {16 oz} - 5 ½"/>
                             </Button>
@@ -647,12 +713,16 @@
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                            
+
                         </StackPanel>
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="KIDS MENU" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
                     <StackPanel Width="740">
+                        <TextBlock Width="735" Foreground="Black" FontSize="22"  FontStyle="Italic" TextAlignment="Center" Margin="10">
+                                Find kids' meals that will make any child happy.
+                        </TextBlock>
+                        <Image x:Name="kids" Source="kids.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.526,0.863" Margin="0,5,0,0" Height="300" />
                         <Button Background="White" BorderThickness="0" Click="kp_Click">
                             <TextBlock Width="735" Margin="0,20">
                                 KIDS' PENNE <LineBreak/> 
