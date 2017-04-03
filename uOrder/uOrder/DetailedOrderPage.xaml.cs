@@ -29,7 +29,10 @@ namespace uOrder
         double addPrice;
         double addPrice2;
         double addPrice3;
-        String dropItem = null;
+        String drop1;
+        String drop2;
+        String drop3;
+        String drop4;
         bool refillable = false;
 
 
@@ -111,14 +114,10 @@ namespace uOrder
                 fourthItem.Visibility = Visibility.Visible;
                 fourthItem.Content = drop4;
             }
-            if (firstItem.IsSelected)
-                dropItem = drop1;
-            else if (secondItem.IsSelected)
-                dropItem = drop2;
-            else if (thirdItem.IsSelected)
-                dropItem = drop3;
-            else
-                dropItem = drop4;
+            this.drop1 = drop1;
+            this.drop2 = drop2;
+            this.drop3 = drop3;
+            this.drop4 = drop4;
         }
 
         public void setAsRefillable()
@@ -128,55 +127,66 @@ namespace uOrder
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-            _menu.order_stack.Children.Remove(_menu.empty);
-            _menu.order_stack.Children.Remove(_menu.empty2);
-
-            TextBlock one = new TextBlock();
-            one.Text = item;
-            one.FontSize = 22;
-            String details = "";
-            String addOns = null;
-            String addOns2 = null;
-            String addOns3 = null;
-
-            if (notes.Text != "Enter preferences or allergies here")
-
+            if (dropDown.Visibility == Visibility.Visible && dropDown.Text == "-- Select Type --")
+                new MessageDialog("Please specify the type of item you wish to order").ShowDialog();
+            else
             {
-                details = "\" " + notes.Text + " \"";
+                _menu.order_stack.Children.Remove(_menu.empty);
+                _menu.order_stack.Children.Remove(_menu.empty2);
 
-            }
-            double currentPrice = price;
-            if ((bool)checkbox.IsChecked)
-            {
-                addOns = (String)this.checkbox.Content;
-                currentPrice += addPrice;
-            }
-            if ((bool)checkbox2.IsChecked)
-            {
-                addOns2 = (String)this.checkbox2.Content;
-                currentPrice += addPrice2;
-            }
-            if ((bool)checkbox3.IsChecked)
-            {
-                addOns3 = (String)this.checkbox3.Content;
-                currentPrice += addPrice3;
-            }
+                TextBlock one = new TextBlock();
+                one.Text = item;
+                one.FontSize = 22;
+                String details = "";
+                String dropItem = "";
+                String addOns = null;
+                String addOns2 = null;
+                String addOns3 = null;
 
-            OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
-            if (refillable)
-                oi.setAsRefillable();
-            _menu.order_stack.Children.Add(oi);
+                if (notes.Text != "Enter preferences or allergies here")
 
-            _menu.subtotal += currentPrice;
-            _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
-            _menu.total = _menu.subtotal + _menu.gst;
-            _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
-            _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
-            _menu.tot_label.Content = "Total: $" + _menu.total.ToString("F");
+                {
+                    details = "\" " + notes.Text + " \"";
+
+                }
+                double currentPrice = price;
+                if ((bool)checkbox.IsChecked)
+                {
+                    addOns = (String)this.checkbox.Content;
+                    currentPrice += addPrice;
+                }
+                if ((bool)checkbox2.IsChecked)
+                {
+                    addOns2 = (String)this.checkbox2.Content;
+                    currentPrice += addPrice2;
+                }
+                if ((bool)checkbox3.IsChecked)
+                {
+                    addOns3 = (String)this.checkbox3.Content;
+                    currentPrice += addPrice3;
+                }
+                if (firstItem.IsSelected)
+                    addOns = drop1;
+                else if (secondItem.IsSelected)
+                    addOns = drop2;
+                else if (thirdItem.IsSelected)
+                    addOns = drop3;
+                else
+                    addOns = drop4;
+                OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
+                if (refillable)
+                    oi.setAsRefillable();
+                _menu.order_stack.Children.Add(oi);
+
+                _menu.subtotal += currentPrice;
+                _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
+                _menu.total = _menu.subtotal + _menu.gst;
+                _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
+                _menu.gst_label.Content = "GST: $" + _menu.gst.ToString("F");
+                _menu.tot_label.Content = "Total: $" + _menu.total.ToString("F");
+            }
 
         }
-
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {

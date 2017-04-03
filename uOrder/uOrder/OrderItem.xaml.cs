@@ -69,6 +69,11 @@ namespace uOrder
             if (new ConfirmDialog("Are you sure you want to remove this item?", "Remove item").ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 _menu.order_stack.Children.Remove(this);
+                if (_menu.order_stack.Children.Count == 0)
+                {
+                    _menu.order_stack.Children.Add(_menu.empty);
+                    _menu.order_stack.Children.Add(_menu.empty2);
+                }
                 _menu.subtotal -= price - addPrice - addPrice2 - addPrice3;
                 _menu.gst = _menu.subtotal * 0.05;
                 _menu.total = _menu.gst + _menu.subtotal;

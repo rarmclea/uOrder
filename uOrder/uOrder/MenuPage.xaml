@@ -633,7 +633,7 @@
                             <Button Background="White" BorderThickness="0" Click="at_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     ASSORTED TEAS <LineBreak/> 
-                                    chamomile, wild raspberry, super mint, earl grey, orange pekoe, red chai - 3 ½
+                                    chamomile, super mint, orange pekoe, red chai - 3 ½
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
@@ -641,7 +641,7 @@
                                 <TextBlock Width="735" Margin="0,20">
                                     SIGNATURE MILKSHAKES <LineBreak/> 
                                     rich and creamy hand-scooped milkshake topped with whipped cream <LineBreak/>
-                                    choose from vanilla, chocolate, strawberry, peach or 4-berry - 5
+                                    choose from vanilla, chocolate, strawberry, or peach - 5
                                 </TextBlock>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>

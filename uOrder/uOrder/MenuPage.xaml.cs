@@ -586,7 +586,7 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            DetailedOrderPage dop = new DetailedOrderPage(this, "Assorted Teas", "aromatically made over cured leaves - 3 ½", 3.50, false, false);
+            DetailedOrderPage dop = new DetailedOrderPage(this, "Assorted Teas", "aromatically made over cured leaves - 3 ½", 3.50, false, false, "Orange Pekoe", "Chamomile", "Super Mint", "Red Chai");
             dop.setAsRefillable();
             page_viewer.Children.Add(dop);
         }
@@ -595,14 +595,14 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Signature Milkshakes", "rich and creamy hand-scooped milkshake topped with whipped cream - 5", 5.00, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Signature Milkshakes", "rich and creamy hand-scooped milkshake topped with whipped cream - 5", 5.00, false, false, "Vanilla", "Chocolate", "Strawberry", "Peach"));
 
         }
         private void bb_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            DetailedOrderPage dop = new DetailedOrderPage(this, "Bottomless Beverages", "choose from our wide selection of thirst-quenching drinks - 3", 3.00, false, false);
+            DetailedOrderPage dop = new DetailedOrderPage(this, "Bottomless Beverages", "choose from our wide selection of thirst-quenching drinks - 3", 3.00, false, false, "Coke", "Diet Coke", "Sprite", "Root Beer");
             dop.setAsRefillable();
             page_viewer.Children.Add(dop);
 
@@ -630,14 +630,14 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Italian Sodas", "your choice of raspberry, mandarin orange or mango syrup with soda water - 3", 3.00, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Italian Sodas", "your choice of raspberry, mandarin orange or mango syrup with soda water - 3", 3.00, false, false, "Raspberry", "Mandarin Orange", "Mango", null));
         }
         private void fj_Click(object sender, RoutedEventArgs e)
 
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Fresh Juice", "your choice of tropicana pure premium orange juice, apple, pineapple, or tomato - 3 ¾", 3.75, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Fresh Juice", "your choice of tropicana pure premium orange juice, apple, pineapple, or tomato - 3 ¾", 3.75, false, false, "Apple", "Orange", "Pineapple", "Tomato"));
         }
 
 

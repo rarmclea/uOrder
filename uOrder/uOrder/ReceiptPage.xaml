@@ -20,7 +20,7 @@
             <Label Name="sub_label" Content="Subtotal: $0.00" FontSize="14" Margin="10,15,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="953"/>
             <Label Name="gst_label" Content="GST: $0.00" FontSize="14" Margin="10,0,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="953"/>
             <Label Name="tot_label" Content="Total: $0.00" FontSize="20" Margin="10,0,0,0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Width="953"/>
-            <Button Name="pay" Content="Pay Now" Height="40" Margin="803,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="pay_Click" Background="DarkRed" HorizontalAlignment="Left" Width="160"/>
+            <Button Name="pay" Content="Pay Now" Height="40" Margin="754,0,0,0" FontSize="22" Foreground="White" VerticalContentAlignment="Center" Click="pay_Click" Background="DarkRed" HorizontalAlignment="Left" Width="209"/>
         </StackPanel>
 
         <Image x:Name="Image11_png" Margin="1105,44,97,58" Source="Image11.png" Stretch="Fill"/>

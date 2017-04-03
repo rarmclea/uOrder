@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rachel\Desktop\cpsc481\uOrder\uOrder\uOrder\obj\Debug\
+C:\Users\rachel\Desktop\uorder\uOrder\uOrder\uOrder\obj\Debug\
 uOrder
 none
 false
 DEBUG;TRACE
-C:\Users\rachel\Desktop\cpsc481\uOrder\uOrder\uOrder\App.xaml
+C:\Users\rachel\Desktop\uorder\uOrder\uOrder\uOrder\App.xaml
 8-985199310
 
 21-1605505844
 17-67723260
 DetailedOrderPage.xaml;HelpPage.xaml;MainWindow.xaml;MenuPage.xaml;OrderItem.xaml;ReceiptItem.xaml;ReceiptPage.xaml;YourOrder.xaml;
 
-False
+True
 

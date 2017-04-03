@@ -31,7 +31,11 @@ namespace uOrder
         private void pay_Click(object sender, RoutedEventArgs e)
         {
             if (new ConfirmDialog("How would you like to pay for your order?", "Cash", "Credit").ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
                 new MessageDialog("Your server is on the way with the cheque").ShowDialog();
+                pay.Content = "Payment Pending";
+                pay.FontSize = 18;
+            }
         }
     }
 }

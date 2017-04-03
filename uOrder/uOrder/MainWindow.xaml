@@ -43,7 +43,7 @@
 
         </StackPanel>
         <Button Name="enter" Content="Button" Grid.Row="1"  Width="1932" Height="908" Click="start_Click" Opacity="0" Margin="0,0,-2,0"/>
-        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" Visibility="Collapsed">
+        <Button Name="start" Grid.RowSpan="3" IsHitTestVisible="False" Background="#FF4F0D0D" Visibility="Visible">
             <StackPanel>
                 <Image x:Name="uOrderLogo_png" Source="uOrderlogo.png" Stretch="Uniform" Visibility="Visible" Width="2034" Height="778" Margin="-80,0,-20,0"/>
                 <Label Content="Swipe to continue >>" Foreground="White" FontSize="34" HorizontalContentAlignment="Center" FontStyle="Italic"/>
