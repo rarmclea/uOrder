@@ -46,8 +46,10 @@
                     Enter preferences or allergies here
                 </TextBox>
             </StackPanel>
-            <Button Content="Add to Order" Margin="650,10,0,0" Background="DarkRed" Foreground="White" FontSize="22" Click="Button_Click" />
-
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Start Over" Margin="10,10,0,0" Background="DarkRed" Foreground="White" FontSize="22" Click="StartOver_Click" Width="151" />
+                    <Button Content="Add to Order" Margin="560,10,0,0" Background="DarkRed" Foreground="White" FontSize="22" Click="Button_Click" Width="151" />
+                </StackPanel>
             </StackPanel>
         </ScrollViewer>
 

@@ -134,8 +134,6 @@ namespace uOrder
                 String addOns2 = null;
                 String addOns3 = null;
 
-                if (notes.Text != "Enter preferences or allergies here")
-                    details = "\" " + notes.Text + " \"";
                 double currentPrice = price;
                 if ((bool)checkbox.IsChecked)
                 {
@@ -207,6 +205,25 @@ namespace uOrder
         private void checkbox_Checked3(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void StartOver_Click(object snder, RoutedEventArgs e)
+        {
+            if ((bool)checkbox.IsChecked)
+            {
+                checkbox.IsChecked = false;
+
+            }
+            if ((bool)checkbox2.IsChecked)
+            {
+                checkbox2.IsChecked = false;
+            }
+            if ((bool)checkbox3.IsChecked)
+            {
+                checkbox3.IsChecked = false;
+            }
+            if (dropItem != "-- Select --")
+                dropDown.Text = "-- Select --";
         }
     }
 }
