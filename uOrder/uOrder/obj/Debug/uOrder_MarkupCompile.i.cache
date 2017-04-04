@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\samba.cs.ucalgary.ca\madel.castro\481\uOrder\uOrder\uOrder\obj\Debug\
+U:\481\uOrder\uOrder\uOrder\obj\Debug\
 uOrder
 none
 false
 DEBUG;TRACE
-\\samba.cs.ucalgary.ca\madel.castro\481\uOrder\uOrder\uOrder\App.xaml
+U:\481\uOrder\uOrder\uOrder\App.xaml
 8-985199310
 
 211195666385
 17-67723260
 DetailedOrderPage.xaml;HelpPage.xaml;MainWindow.xaml;MenuPage.xaml;OrderItem.xaml;ReceiptItem.xaml;ReceiptPage.xaml;YourOrder.xaml;
 
-False
+True
 

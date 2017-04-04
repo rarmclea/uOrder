@@ -274,10 +274,8 @@ namespace uOrder
         private void s_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
-
             downArrowCover.Visibility = Visibility.Collapsed;
-
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin", "7 oz certified angus beef (cab®) - 25 ¾", 25.75, false, false, true, "Add madagascar peppercorn brandy sauce 3½", null, null, 3.50, 0, 0));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin", "7 oz certified angus beef (cab®) - 25 ¾", 25.75, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
 
         }
 
@@ -285,35 +283,35 @@ namespace uOrder
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Honey Garlic Sirloin", "9 oz, our unforgettable marinated sirloin - 29 ½", 29.50, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Honey Garlic Sirloin", "9 oz, our unforgettable marinated sirloin - 29 ½", 29.50, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
         }
 
         private void ms_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Mushroom Sirloin", "7 oz cab® sirloin, creamy madeira sauce + pan roasted cremini mushrooms - 29", 29.00, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Mushroom Sirloin", "7 oz cab® sirloin, creamy madeira sauce + pan roasted cremini mushrooms - 29", 29.00, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
         }
 
         private void ny_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "New York", "10 oz - 34", 34.00, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "New York", "10 oz - 34", 34.00, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
         }
 
         private void pny_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Peppercorn New York", "10 oz with madagascar peppercorn brandy sauce - 36 ½", 36.50, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Peppercorn New York", "10 oz with madagascar peppercorn brandy sauce - 36 ½", 36.50, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
         }
 
         private void sp_Click(object sender, RoutedEventArgs e)
         {
             menu.Visibility = Visibility.Collapsed;
             downArrowCover.Visibility = Visibility.Collapsed;
-            page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin + Pawns", "7 oz cab® sirloin + grilled garlic butter prawns - 33", 33.00, false, false));
+            page_viewer.Children.Add(new DetailedOrderPage(this, "Sirloin + Pawns", "7 oz cab® sirloin + grilled garlic butter prawns - 33", 33.00, false, false, "Roasted Baby Potatoes", "Lemon Quinoa", "Baked Potato", null));
         }
 
         //Mains
