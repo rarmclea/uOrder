@@ -502,14 +502,7 @@
                                 All burgers are also served on a toasted bun + topped with lettuce, <LineBreak/> 
                                 tomatoes, red onions, pickles + burger sauce and fries
                             </TextBlock>
-                            <Label BorderThickness="7" BorderBrush="DarkRed" Height="7" Margin="0,10"/>                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
-                                <TextBlock Width="735" Margin="0,20">
-                                    PORTOBELLO VEGGIE BURGER <LineBreak/> 
-                                    marinated full mushroom cap, aged white cheddar, + fresh herbs - 14 ¾
-                                </TextBlock>
-                            </Button>
-                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-
+                            <Label BorderThickness="7" BorderBrush="DarkRed" Height="7" Margin="0,10"/>
                             <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" >
                                 <Button.Style>
                                     <Style TargetType="Button">
@@ -534,7 +527,8 @@
                             <Button Background="White" BorderThickness="0" Click="pvb_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     <Run FontSize="20" FontWeight="Bold">PORTOBELLO VEGGIE BURGER </Run><LineBreak/> 
-                                    marinated full mushroom cap, aged white cheddar, + fresh herbs - 14 ¾
+                                    marinated full mushroom cap, aged white cheddar, + fresh herbs<LineBreak/> 
+                                    <Run FontWeight="Bold">14 ¾ </Run>
                                 </TextBlock>
                             </Button>
                                 <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
