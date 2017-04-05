@@ -83,7 +83,7 @@ namespace uOrder
         {
             if (new ConfirmDialog("Do you want to call the waiter?", "Call Waiter").ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                call.BorderBrush = Brushes.Red;
+                call.BorderBrush = Brushes.MediumSpringGreen;
                 new MessageDialog("The waiter has been called. Please wait.").ShowDialog();
 
             }

@@ -28,12 +28,11 @@
             <Image x:Name="Image11_png" Source="home_icon.png" Stretch="Uniform"/>
         </Button>
         <Button Name="menu" Grid.Row="0" Content="MENU" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1212,20,565.4,19.8"  Click="menu_Click"/>
-        <!--Button Name="help" Grid.Row="0" Content=" HELP" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1060,20,754,20"  Click="help_Click"/-->
         <Button Name="help" Grid.Row="0" Margin="352,20,1532.4,19.8" Click="help_Click" BorderThickness="0">
             <Image x:Name="hel3" Source="question_icon.png" Stretch="Uniform"/>
         </Button>
         <Button Name="receipt" Grid.Row="0" Content="VIEW RECEIPT" FontSize="28" FontWeight="Heavy" Foreground="#FFEEE6E4" Background="#FF4F0D0D" BorderBrush="#FF4F0D0D" BorderThickness="3" Margin="1491,21,188.4,19.8" Click="receipt_Click"/>
-        <Button x:Name="call" Margin="436,15,1442.4,16.8" Click="call_Click" BorderBrush="#FF4F0D0D" BorderThickness="3">
+        <Button x:Name="call" Margin="436,15,1442.4,16.8" Click="call_Click" BorderBrush="#FF4F0D0D" BorderThickness="5">
             <Image x:Name="Image10_png" RenderOptions.BitmapScalingMode="HighQuality" Source="Image10.png" Stretch="Uniform"/>
         </Button>
 
