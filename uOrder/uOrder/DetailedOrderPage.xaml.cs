@@ -119,7 +119,7 @@ namespace uOrder
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (dropDown.Visibility == Visibility.Visible && dropDown.Text == "-- Select Type --")
+            if (dropDown.Visibility == Visibility.Visible && dropDown.Text == "-- Select --")
                 new MessageDialog("Please specify the type of item you wish to order").ShowDialog();
             else
             {
