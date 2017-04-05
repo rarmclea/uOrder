@@ -559,3 +559,33 @@ C:\Users\Madel\Documents\School School\CPSC 481\uOrder\uOrder\uOrder\obj\Debug\u
 C:\Users\Madel\Documents\School School\CPSC 481\uOrder\uOrder\uOrder\obj\Debug\uOrder.MessageDialog.resources
 C:\Users\Madel\Documents\School School\CPSC 481\uOrder\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
 C:\Users\Madel\Documents\School School\CPSC 481\uOrder\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\bin\Debug\uOrder.exe.config
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.exe
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.pdb
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\bin\Debug\uOrder.exe
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\bin\Debug\uOrder.pdb
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.csprojResolveAssemblyReference.cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\DetailedOrderPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\HelpPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\MainWindow.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\MenuPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\OrderItem.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\ReceiptItem.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\ReceiptPage.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\YourOrder.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\App.g.cs
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.cache
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder_MarkupCompile.lref
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\DetailedOrderPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\HelpPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\MainWindow.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\MenuPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\OrderItem.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\ReceiptItem.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\ReceiptPage.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\YourOrder.baml
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.g.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.ConfirmDialog.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.MessageDialog.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.Properties.Resources.resources
+C:\Users\Shivani Thakkar\Desktop\U of C Winter 2017\CPSC 481\A2\Vertical Prototype\latest\uOrder\uOrder\uOrder\obj\Debug\uOrder.csproj.GenerateResource.Cache

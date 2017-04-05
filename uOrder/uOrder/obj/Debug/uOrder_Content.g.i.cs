@@ -8,8 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("drinks.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("handhelds.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("kids.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image24.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image33.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image34.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image35.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image36.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image38.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image41.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image42.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image43.png")]
 
 
