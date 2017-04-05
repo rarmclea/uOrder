@@ -49,7 +49,9 @@ namespace uOrder
                     for (int i = 0; i < array.Length; i++)
                     {
                         OrderItem oi = array[i];
-                        String addons = oi.addOns + oi.addOns2 + oi.addOns3;
+                        String addons2 = oi.addOns2 == null ? null : "\n" +oi.addOns2;
+                        String addons3 = oi.addOns3 == null ? null : "\n" + oi.addOns3;
+                        String addons = oi.addOns + addons2 + addons3;
                         _receipt.receipt_stack.Children.Add(new ReceiptItem(oi.title, oi.details, oi.price, addons, oi.refillable));
                     }
                     order_stack.Children.Clear();

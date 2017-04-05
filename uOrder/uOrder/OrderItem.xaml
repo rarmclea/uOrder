@@ -10,8 +10,8 @@
         <StackPanel Margin="10,10,250,10">
             <Label Name="item_title" FontSize="22" Margin="0" HorizontalContentAlignment="Left"/>
             <TextBlock Name="addOn_details" FontSize="18" Margin="15,0" HorizontalAlignment="Left" Visibility="Collapsed"/>
-            <TextBlock Name="addOn_details2" FontSize="18" HorizontalAlignment="Left" Visibility="Collapsed"/>
-            <TextBlock Name="addOn_details3" FontSize="18" HorizontalAlignment="Left" Visibility="Collapsed"/>
+            <TextBlock Name="addOn_details2" FontSize="18" Margin="15,0" HorizontalAlignment="Left" Visibility="Collapsed"/>
+            <TextBlock Name="addOn_details3" FontSize="18" Margin="15,0" HorizontalAlignment="Left" Visibility="Collapsed"/>
             <TextBlock Name="drop_details" FontSize="18" Margin="15,0" HorizontalAlignment="Left" Visibility="Collapsed"/>
             <TextBlock Name="item_details" FontSize="18" FontStyle="Italic" HorizontalAlignment="Left" Margin="15,0" Foreground="DarkRed"/>
         </StackPanel>

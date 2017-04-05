@@ -503,6 +503,14 @@
                                 tomatoes, red onions, pickles + burger sauce and fries
                             </TextBlock>
                             <Label BorderThickness="7" BorderBrush="DarkRed" Height="7" Margin="0,10"/>
+                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    <Run FontSize="20" FontWeight="Bold">PORTOBELLO VEGGIE BURGER </Run><LineBreak/> 
+                                    marinated full mushroom cap, aged white cheddar, + fresh herbs<LineBreak/> 
+                                    <Run FontWeight="Bold">14 ¾ </Run>
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
                             <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" >
                                 <Button.Style>
                                     <Style TargetType="Button">
@@ -524,15 +532,7 @@
                                 </Button.Style>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,40"/>
-                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
-                                <TextBlock Width="735" Margin="0,20">
-                                    <Run FontSize="20" FontWeight="Bold">PORTOBELLO VEGGIE BURGER </Run><LineBreak/> 
-                                    marinated full mushroom cap, aged white cheddar, + fresh herbs<LineBreak/> 
-                                    <Run FontWeight="Bold">14 ¾ </Run>
-                                </TextBlock>
-                            </Button>
-                                <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
-                                <Button Background="White" BorderThickness="0" Click="tb_Click">
+                            <Button Background="White" BorderThickness="0" Click="tb_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     <Run FontSize="20" FontWeight="Bold">THE BURGER</Run><LineBreak/> 
                                     hand-formed chuck + brisket patty, red relish, pickled mustard seed mayo<LineBreak/>
@@ -813,8 +813,8 @@
                     </ScrollViewer>
                 </TabItem>
                 <TabItem Header="KIDS MENU" FontFamily="Montreal" FontSize="18" Width="140" Height="65">
-                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="712" ScrollChanged="ScrollViewer_ScrollChanged" Width="760" Margin="0,0,-4,0">
-                        <StackPanel Width="740" Height="766">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" PanningMode="Both" Height="712" ScrollChanged="ScrollViewer_ScrollChanged" Width="760">
+                        <StackPanel Width="740">
                             <Image x:Name="Image22_png" Height="304" Margin="0" Source="Image22.png" Stretch="Fill"/>
                             <TextBlock FontSize="22"  FontStyle="Italic" TextAlignment="Center"  Foreground="DarkRed" Margin="15">
                                 Find kids' meals that will make any child happy.

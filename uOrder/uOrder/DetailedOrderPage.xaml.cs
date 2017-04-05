@@ -130,6 +130,8 @@ namespace uOrder
                 one.Text = item;
                 one.FontSize = 22;
                 String details = "";
+                if (notes.Text != "Enter preferences or allergies here")
+                    details = notes.Text;
                 String addOns = null;
                 String addOns2 = null;
                 String addOns3 = null;
@@ -150,14 +152,12 @@ namespace uOrder
                     addOns3 = (String)this.checkbox3.Content;
                     currentPrice += addPrice3;
                 }
-                dropItem = dropDown.Text;
-                if (dropItem.Equals("-- Select --"))
-                    dropItem = null;
+                if (dropDown.Text != "-- Select --")
+                    dropItem = dropDown.Text;
                 OrderItem oi = new OrderItem(_menu, item, details, price, addOns, addOns2, addOns3, addPrice, addPrice2, addPrice3, dropItem);
                 if (refillable)
                     oi.setAsRefillable();
                 _menu.order_stack.Children.Add(oi);
-
                 _menu.subtotal += currentPrice;
                 _menu.gst = Math.Truncate((_menu.subtotal * 0.05) * 100) / 100;
                 _menu.total = _menu.subtotal + _menu.gst;
