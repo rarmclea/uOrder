@@ -43,7 +43,7 @@ namespace uOrder
             */
 
             _menu = new MenuPage(_receipt);
-            page_viewer.Children.Add(_help);
+            page_viewer.Children.Add(_menu);
 
 
         }

@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1">
             <Label FontSize="40" Content="YOUR ORDER" FontWeight="Bold" Margin="10,0,728,0" />
-            <ScrollViewer PanningMode="Both" Height="517"  Width="926" VerticalScrollBarVisibility="Hidden"  Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
+            <ScrollViewer PanningMode="Both" Height="572"  Width="926" VerticalScrollBarVisibility="Hidden"  Background="#FFF6F2F1" HorizontalAlignment="Right" Margin="0,0,60,10">
                 <StackPanel Margin="10,0" Name="order_stack">
                     <Label Name="empty" Height="67" Content="Your order is empty." FontStyle="Italic" FontSize="40" Foreground="DarkRed" Width="362" Margin="0,200,0,-200"/>
                     <Label Name="empty2" Height="68" Content="Please select an item from the menu." FontStyle="Italic" FontSize="30" Foreground="DarkRed" Width="498" Margin="0,200,0,0"/>
@@ -467,7 +467,14 @@
                                 All burgers are also served on a toasted bun + topped with lettuce, <LineBreak/> 
                                 tomatoes, red onions, pickles + burger sauce and fries
                             </TextBlock>
-                            <Label BorderThickness="7" BorderBrush="DarkRed" Height="7" Margin="0,10"/>
+                            <Label BorderThickness="7" BorderBrush="DarkRed" Height="7" Margin="0,10"/>                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
+                                <TextBlock Width="735" Margin="0,20">
+                                    PORTOBELLO VEGGIE BURGER <LineBreak/> 
+                                    marinated full mushroom cap, aged white cheddar, + fresh herbs - 14 ¾
+                                </TextBlock>
+                            </Button>
+                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
+
                             <Button Background="LightGray" BorderBrush="Black" BorderThickness="0" Height="80" >
                                 <Button.Style>
                                     <Style TargetType="Button">
@@ -491,13 +498,6 @@
                                 </Button.Style>
                             </Button>
                             <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,40"/>
-                            <Button Background="White" BorderThickness="0" Click="pvb_Click">
-                                <TextBlock Width="735" Margin="0,20">
-                                    PORTOBELLO VEGGIE BURGER <LineBreak/> 
-                                    marinated full mushroom cap, aged white cheddar, + fresh herbs - 14 ¾
-                                </TextBlock>
-                            </Button>
-                            <Label BorderThickness="2" BorderBrush="Black" Height="2" Margin="0,20"/>
                             <Button Background="White" BorderThickness="0" Click="tb_Click">
                                 <TextBlock Width="735" Margin="0,20">
                                     THE BURGER<LineBreak/> 
