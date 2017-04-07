@@ -18,7 +18,7 @@
                     <Image x:Name="iconveg" Height="30" Source="Image8.png" Width="35" Visibility="Collapsed"/>
                 </StackPanel>
 
-            <StackPanel Margin="0,0" Height="260">
+            <StackPanel Margin="0,0" Height="300">
                     <TextBlock x:Name="details" FontSize="22" Margin="0, 0, 0 , 0"/>
                     <CheckBox Name="checkbox" FontSize="11" Checked="checkbox_Checked" Visibility="Collapsed" Content="">
                     <CheckBox.LayoutTransform>
@@ -41,9 +41,9 @@
                     <ComboBoxItem Name="thirdItem" Visibility="Collapsed"></ComboBoxItem>
                     <ComboBoxItem Name="fourthItem" Visibility="Collapsed"></ComboBoxItem>
                 </ComboBox>
-                    <Label Content="A note for the kitchen:" FontSize="22"/>
-                    <TextBox GotFocus ="notes_GotFocus" Name="notes" Width="874" Height="181" FontFamily="Courier New" FontSize="20" TextWrapping="Wrap" AcceptsReturn="True" LostFocus="notes_LostFocus">
-                    Enter preferences or allergies here
+                <Label Content="A note for the kitchen:" FontSize="22"/>
+                <TextBox GotFocus ="notes_GotFocus" Name="notes" Width="874" Height="228" FontFamily="Courier New" FontSize="20" TextWrapping="Wrap" AcceptsReturn="True" LostFocus="notes_LostFocus">
+                Enter preferences or allergies here
                 </TextBox>
             </StackPanel>
                 <StackPanel Orientation="Horizontal">

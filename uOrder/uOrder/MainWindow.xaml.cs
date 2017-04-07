@@ -34,14 +34,6 @@ namespace uOrder
 
             InitializeComponent();
 
-            /**
-             ImageBrush myBrush = new ImageBrush();
-            myBrush.ImageSource =
-                new BitmapImage(new Uri("https://media-cdn.tripadvisor.com/media/photo-s/01/c4/40/ca/moxie-s-classic-grill.jpg", UriKind.Absolute));
-            myBrush.Opacity = 2;
-            page_viewer.Background = myBrush;
-            */
-
             _menu = new MenuPage(_receipt);
             page_viewer.Children.Add(_menu);
 
@@ -117,7 +109,7 @@ namespace uOrder
 
                 //Swipe Left
 
-                if (TouchStart != null && Touch.Position.X > (TouchStart.Position.X + 900))
+                if (TouchStart != null && Touch.Position.X > (TouchStart.Position.X + 200))
                 {
                     start_Click(sender, e);
                     AlreadySwiped = true;

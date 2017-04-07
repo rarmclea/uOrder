@@ -16,14 +16,8 @@
             <ColumnDefinition Width="1950" />
         </Grid.ColumnDefinitions>
         <Rectangle Grid.Row="0"  Fill="#FF4F0D0D" Margin="0,0,0,830" Grid.RowSpan="2"/>
-        <StackPanel>
-            <Button x:Name="button" Content="Button" Margin="7,6,1688,0" Opacity="0" Grid.Row="0" VerticalAlignment="Top" Cursor="Arrow" Click="home_Click" IsHitTestVisible="True" Height="84" />
-        </StackPanel>
-        <StackPanel>
-            <Button Name="button1" Grid.Row="0"  IsHitTestVisible="False" Background="#FF4F0D0D" >
-                <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Height="100" Source="uOrderLogo.png" Stretch="Uniform"/>
-            </Button>
-        </StackPanel>
+        
+        <Image x:Name="Image6_png3" Grid.Row="0" Margin="7,0,1688,0" Height="100" Source="uOrderLogo.png" Stretch="Uniform"/>
         <Button Name="home" Grid.Row="0" Margin="268,20,1617.4,19.8" BorderThickness="0" Click="home_Click">
             <Image x:Name="Image11_png" Source="home_icon.png" Stretch="Uniform"/>
         </Button>
