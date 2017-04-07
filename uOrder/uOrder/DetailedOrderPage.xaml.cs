@@ -178,7 +178,8 @@ namespace uOrder
 
         private void notes_GotFocus(object sender, RoutedEventArgs e)
         {
-            notes.Clear();
+            if (notes.Text == "Enter preferences or allergies here")
+                notes.Clear();
             _menu.kb.Visibility = Visibility.Visible;
             _menu.kb_background.Visibility = Visibility.Visible;
 
@@ -224,6 +225,7 @@ namespace uOrder
             }
             if (dropItem != "-- Select --")
                 dropDown.Text = "-- Select --";
+            notes.Text = "Enter preferences or allergies here";
         }
     }
 }

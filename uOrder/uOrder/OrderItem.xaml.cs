@@ -88,10 +88,13 @@ namespace uOrder
                     _menu.order_stack.Children.Add(_menu.empty);
                     _menu.order_stack.Children.Add(_menu.empty2);
                 }
-                addPrice = addOns == null ? 0 : addPrice;
-                addPrice2 = addOns2 == null ? 0 : addPrice2;
-                addPrice3 = addOns3 == null ? 0 : addPrice3;
-                _menu.subtotal -= price - addPrice - addPrice2 - addPrice3;
+                _menu.subtotal -= price;
+                if (addOns != null)
+                    _menu.subtotal -= addPrice;
+                if (addOns2 != null)
+                    _menu.subtotal -= addPrice2;
+                if (addOns3 != null) 
+                    _menu.subtotal -= addPrice3;
                 _menu.gst = _menu.subtotal * 0.05;
                 _menu.total = _menu.gst + _menu.subtotal;
                 _menu.sub_label.Content = "Subtotal: $" + _menu.subtotal.ToString("F");
