@@ -1,7 +1,6 @@
-# uOrder
-since the early repository was getting crowded and i was having trouble uploading to it
+Names: 
+Rachel Mclean: rarmclea@ucalgary.ca  
+Shivani Thakkar: shivani.thakkar2@ucalgary.ca             
+Madel Castro: madel.castro@ucalgary.ca 
 
- - i think i have the receipt system working
- - adding items to order works
- - the auto closing message boxes had stopped working in the last clone from git and i couldn't find the problem so i had to back up to an earlier version
- 
+This is our restaurant ordering system. The system is robust, with almost fully implemented functionality that was planned for this iteration. 
