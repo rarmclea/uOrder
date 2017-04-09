@@ -1,4 +1,3 @@
-Names: 
 Rachel Mclean: rarmclea@ucalgary.ca  
 Shivani Thakkar: shivani.thakkar2@ucalgary.ca             
 Madel Castro: madel.castro@ucalgary.ca 
